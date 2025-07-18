@@ -1,0 +1,163 @@
+{
+  "title": "Tengwesta Qenderinwa",
+  "witnesses": [
+    "Editorial", "Blue-black ink", "Blue-black ink +", "Pencil"
+  ],
+  "table":
+    [
+      {
+        "index": "1",
+        "cols": [
+          [
+            { "type": "text", "value": "A. _Lambion Ontale_ : Descent of Tongues." }
+          ],
+          [{}],
+          [{}],
+          [{}]
+        ]
+      },
+      {
+        "index": "2",
+        "cols": [
+          [
+            { "type": "text", "value": "§1 Here is set forth the structure of the language of the **Qendi**, or _Elves_, and the manner of its change in the course of time in the diverse speeches of the _Qendelie_ or Elf-race." }
+          ],
+          [{}],
+          [{}],
+          [{}]
+        ]
+      },
+      {
+        "index": "3.1",
+        "cols": [
+          [
+            { "type": "text", "value": "Now this language the Elves derived in the beginning from the Valar, but they changed it even in the learning, and moreover modified and enriched it constantly at all times by their own invention." }
+          ],
+          [{}],
+          [{}],
+          [{}]
+        ]
+      },
+      {
+        "index": "3.2",
+        "cols": [
+          [
+            { "type": "text", "value": "There are no records of their speech in the early ages; for writing did not begin until the _Noldor_, or Gnomes, devised letters in Valinor, in the days of bliss ere evil befell." }
+          ],
+          [{}],
+          [{}],
+          [{}]
+        ]
+      },
+      {
+        "index": "3.3",
+        "cols": [
+          [
+            { "type": "text", "value": "The Valar write not, and they reveal to few the things which their minds record." }
+          ],
+          [{}],
+          [{}],
+          [{}]
+        ]
+      },
+      {
+        "index": "3.4",
+        "cols": [
+          [
+            { "type": "text", "value": "Therefore the tongues of the Elves that abode in Middle-earth and did not " },
+            { "type": "rep-d", "value": "go to Valinor are" },
+            { "type": "text", "value": " little known, and " },
+            { "type": "del", "value": "not until they had been" },
+            { "type": "text", "value": " long sundered from their kindred in the West." }
+          ],
+          [
+            { "type": "text", "value": "Therefore the tongues of the Elves that abode in Middle-earth and did not "},
+            { "type": "rep", "value": "follow Orome were"},
+            { "type": "text", "value": " little known "},
+            { "type": "add", "value": "to the Eldar"},
+            { "type": "text", "value": ", and long sundered from their kindred in the West "},
+            { "type": "add", "value": "the speech of the _Avari_ was unknown"},
+            { "type": "text", "value": "."}
+          ],
+          [
+            { "type": "text", "value": "Therefore the tongues of the Elves that abode in Middle-earth and did not follow Orome "},
+            { "type": "rep", "value": "are"},
+            { "type": "text", "value": " little known to the Eldar, and "},
+            { "type": "rep", "value": "the earliest knowledge that survives comes only from later days when the _Avari_ had"},
+            { "type": "text", "value": " long "},
+            { "type": "rep", "value": "been"},
+            { "type": "text", "value": " sundered from their kindred in the West."}
+          ],
+          [{}]
+        ]
+      },
+      {
+        "index": "4.1",
+        "cols": [
+          [
+            { "type": "text", "value": "§2 The most ancient structure of the tongue common to all the _Qendi_ is, therefore, guessed or deduced from a comparison one with another of the written forms of the languages of Valinor, and of such records of the tongues of the " },
+            { "type": "rep-d", "value": "Dark-elves" },
+            { "type": "text", "value": " as we here in _Eressea_ in these " },
+            { "type": "rep-d", "value": "latest" },
+            { "type": "text", "value": " days " },
+            { "type": "rep-d", "value": "have knowledge" },
+            { "type": "text", "value": "." }
+          ],
+          [
+            { "type": "text", "value": "§2 The most ancient structure of the tongue common to all the _Qendi_ is, therefore, " },
+            { "type": "add", "value": "not known even to the Elves, though some things may be" },
+            { "type": "text", "value": " guessed or deduced from a comparison one with another of the written forms of the languages of Valinor, and of such records of the tongues of the " },
+            { "type": "rep", "value": "Avari" },
+            { "type": "text", "value": " as we here in _Eressea_ " },
+            { "type": "rep", "value": "have gathered" },
+            { "type": "text", "value": " in these " },
+            { "type": "rep", "value": "later" },
+            { "type": "text", "value": " days." }
+          ],
+          [{}],
+          [{}]
+        ]
+      },
+      {
+        "index": "4.2",
+        "cols": [
+          [
+            { "type": "text", "value": "The languages most fully treated are:" }
+          ],
+          [{}],
+          [{}],
+          [{}]
+        ]
+      },
+      {
+        "index": "4.3",
+        "cols": [
+          [
+            { "type": "text", "value": "firstly the _Qenya_, " },
+            { "type": "add", "value": "[" },
+            { "type": "text", "value": "or _Elf-latin_" },
+            { "type": "add", "value": ",]†" },
+            { "type": "text", "value": " derived mainly from the ancient speech of the _Lindar_ as it was in the days of bliss, for this tongue is used still in speech and writing by all " },
+            { "type": "rep-d", "value": "Elves" },
+            { "type": "text", "value": ";" }
+          ],
+          [
+            { "type": "text", "value": "firstly the _Qenya_, [or _Elf-latin_,]† derived mainly from the ancient speech of the _Lindar_ as it was in the days of bliss, for this tongue is used still in speech and writing by all " },
+            { "type": "rep", "value": "the Eldar" },
+            { "type": "text", "value": ";" }
+          ],
+          [{}],
+          [{}]
+        ]
+      },
+      {
+        "index": "4.4",
+        "cols": [
+          [
+            { "type": "add", "value": "†[quoth Ælfwine]"}
+          ],
+          [{}], [{}], [{}]
+        ]
+      }
+    ]
+}

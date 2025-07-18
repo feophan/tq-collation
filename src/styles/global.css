@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/* Valkyrie */
+
+@font-face {
+	font-family: "valkyrie";
+	src:  url('/fonts/ValkyrieARegular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: "valkyrie";
+	src:  url('/fonts/ValkyrieAItalic.woff2') format('woff2');
+    font-style: italic;
+}
+
+@font-face {
+	font-family: "valkyrie";
+	src:  url('/fonts/ValkyrieABold.woff2') format('woff2');
+    font-weight: bold;
+}
+
+@font-face {
+	font-family: "valkyrie";
+	src:  url('/fonts/ValkyrieABoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+	font-family: "valkyrie-caps";
+	src:  url('/fonts/ValkyrieACapsRegular.woff2') format('woff2');
+}
+
+/* Declaration */
+
+body {
+    font-family: "valkyrie";
+}
+
+del {
+	text-decoration: line-through;
+	text-decoration-color: oklch(63.7% 0.237 25.331)
+}
