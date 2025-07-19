@@ -1,0 +1,61 @@
+---
+// ArrowConnector.astro or ArrowConnector.jsx
+const { from, to } = Astro.props;
+---
+
+<style>
+  .arrow {
+    position: absolute;
+    pointer-events: none;
+    z-index: 10;
+  }
+
+  .arrow line,
+  .arrow path {
+    stroke: #800020;
+    stroke-width: 4;
+    fill: none;
+    marker-end: url(#arrowhead);
+  }
+</style>
+
+<svg class="arrow" id={`arrow-${from}-${to}`} width="0" height="0">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#800020" />
+    </marker>
+  </defs>
+</svg>
+
+<script type="module">
+  const svg = document.getElementById('arrow-{{from}}-{{to}}'.replaceAll('#', ''));
+  const elFrom = document.querySelector('{{from}}');
+  const elTo = document.querySelector('{{to}}');
+
+  if (svg && elFrom && elTo) {
+    const fromRect = elFrom.getBoundingClientRect();
+    const toRect = elTo.getBoundingClientRect();
+
+    const x1 = fromRect.left;
+    const y1 = fromRect.bottom;
+    const x2 = toRect.left;
+    const y2 = toRect.top;
+
+    const left = Math.min(x1, x2) - 50;
+    const top = Math.min(y1, y2) - 10;
+    const width = Math.abs(x1 - x2) + 100;
+    const height = Math.abs(y2 - y1) + 40;
+
+    svg.style.left = `${left}px`;
+    svg.style.top = `${top}px`;
+    svg.setAttribute('width', width);
+    svg.setAttribute('height', height);
+
+    svg.innerHTML += `
+      <path d="M ${x1 - left} ${y1 - top} 
+               L ${x1 - left - 40} ${y1 - top} 
+               L ${x1 - left - 40} ${y2 - top}
+               L ${x2 - left} ${y2 - top}" />
+    `;
+  }
+</script>
