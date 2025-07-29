@@ -1,0 +1,10 @@
+---
+// ArrowConnector.astro or ArrowConnector.jsx
+const { n, m = 2 } = Astro.props;
+---
+
+<!-- AlignmentRow.astro -->
+<div class="grid gap-x-6" style=`grid-template-columns: 4rem repeat(${m}, 24rem);`>
+  <div class="flex justify-start"><br />{n}</div>
+  <slot />
+</div>

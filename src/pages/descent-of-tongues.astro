@@ -1,7 +1,6 @@
 ---
+// index.astro
 import Layout from '../layouts/Layout.astro';
-import Same from '../components/Same.astro';
-import None from '../components/None.astro';
 import Add from '../components/Add.astro';
 import Rep from '../components/Replace.astro';
 import Del from '../components/Delete.astro';
@@ -10,1084 +9,890 @@ import Unc from '../components/Uncertain.astro';
 import Mis from '../components/Mistake.astro';
 import RepD from '../components/Replace-Dec.astro';
 import DelD from '../components/Delete-Dec.astro';
-import ID from '../components/Index.astro';
+import Row from '../components/Row2.astro';
+import P from '../components/Par.astro';
 ---
 
+
 <Layout>
-	<main class="overflow-x-auto">		
-		<div class="grid grid-flow-row grid-cols-[4rem_repeat(5,24rem)] gap-x-6 gap-y-6 text-justify leading-relaxed pb-10">
-			<h1 class="text-center text-xl font-bold mb-6 col-span-full">Descent of Tongues</h1>
-			<!-- Row -->
-			<div></div>
-			<div><h2 class="font-bold text-center">TQ1: Editorial</h2></div>
-			<div><h2 class="font-bold text-center">TQ1: Blue-black ink</h2></div>
-			<div><h2 class="font-bold text-center">TQ1: Blue-black ink edit</h2></div>
-			<div><h2 class="font-bold text-center">TQ1: Pencil</h2></div>
-			<div><h2 class="font-bold text-center">TQ2: Editorial</h2></div>
-			<!-- Row -->
-			<ID>1</ID>
-			<div>
-				<p>A. <i>Lambion Ontale</i> : Descent of Tongues.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>A. <i>Lambion Ontale</i> ‘Descent of Tongues’.</p>
-			</div>
-			<!-- Row -->
-			<ID>2</ID>
-			<div>
-				<p>§1 Here is set forth the structure of the language of the <b>Qendi</b>, or <i>Elves</i>, and the manner of its change in the course of time in the diverse speeches of the <i>Qendelie</i> or Elf-race.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>§1 Here is set forth the structure of the language of the <i>Quendi</i> or Elves, and the manner of its change in the course of time to the divers speeches of the <i>Quendelie</i> or Elf-race.</p>
-			</div>
-			<!-- Row -->
-			<ID>3.1.1</ID>
-			<div>
-				<p>Now this language the Elves derived in the beginning from the Valar, but they changed it even in the learning, and moreover modified and enriched it constantly at all times by their own invention.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>[Now this language the Elves began to make in the beginning of their being and it is one with their being, since it was of their nature and the first of all their gifts to devise names and words.</p>
-			</div>
-			<!-- Row -->
-			<ID>3.1.2</ID>
-			<None />
-			<None />
-			<None />
-			<None />
-			<div>
-				<p>And as they are incomplete and not themselves without their visible forms in this world, so their thought is incomplete and not itself without their language.</p>
-			</div>
-			<!-- Row -->
-			<ID>3.1.3</ID>
-			<None />
-			<None />
-			<None />
-			<None />
-			<div>
-				<p>Whereas the Valar or Powers are in themselves without raiment, thought unattired, and their visible forms are but as a garment which they may put off or change.</p>
-			</div>
-			<!-- Row -->
-			<ID>3.1.4</ID>
-			<None />
-			<None />
-			<None />
-			<None />
-			<div>
-				<p>Therefore they do not need at all times in their councils one with another to clothe their thought in words; though when they array themselves visibly, then they take to themselves tongues that are fitting to the raiment, and they speak, or seem to speak, to each of the races of the world in a fashion that each can comprehend: to the Dwarves in Dwarvish, to Men in Mannish, and the Elves in Elvish.</p>
-			</div>
-			<!-- Row -->
-			<ID>3.1.5</ID>
-			<None />
-			<None />
-			<None />
-			<None />
-			<div>
-				<p>It is true indeed, as is told in the <i>Ainulindale</i>, that most often the Valar in the world of old abode in forms like to those of the Children of Ilúvatar, by whose love they were in the beginning drawn to the world.</p>
-			</div>
-			<!-- Row -->
-			<ID>3.1.6</ID>
-			<None />
-			<None />
-			<None />
-			<None />
-			<div>
-				<p>Wherefore many of the wise hold that in such forms, as it were of great kings and queens, they have also their own high speech, eldest of all tongues. Yet if that be so, the Elves have not heard it, not at the least within the days of their memory.</p>
-			</div>
-			<!-- Row -->
-			<ID>3.1.7</ID>
-			<None />
-			<None />
-			<None />
-			<None />
-			<div>
-				<p>It may well be that when Orome first found the Quendelie, they listened to him and caught, as it were, the tones of the Eldest Speech, and even some of its devices, to weave among their own; for they were eager and filled with the desire of new things in thought and speech, and they had not yet long laboured in the world.</p>
-			</div>
-			<!-- Row -->
-			<ID>3.1.8</ID>
-			<None />
-			<None />
-			<None />
-			<None />
-			<div>
-				<p>But indeed the Quendi wrought not in the void, and used of necessity those things that were already in the world at their coming; and nonetheless that which they made, whence so ever derived, was their own and Elvish.]<sup>¶</sup></p>
-			</div>
-			<!-- Row -->
-			<ID>3.1.9</ID>
-			<None />
-			<None />
-			<None />
-			<None />
-			<div>
-				<p>¶ Quoth Rúmil. So Ælfwine notes. This passage seems an excerpt from another work.</p>
-			</div>
-			<!-- Row -->
-			<ID>3.2</ID>
-			<div>
-				<p>There are no records of their speech in the early ages; for writing did not begin until the <i>Noldor</i>, or Gnomes, devised letters in Valinor, in the days of bliss ere evil befell.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>In all that pertains to the beginnings our lore is unsure, for there are no records of the speech of the Qendi in the primeval days, and writing did not begin until the Noldor devised letters in Valinor, in the days of Bliss ere evil befell.</p>
-			</div>
-			<!-- Row -->
-			<ID>3.3</ID>
-			<div>
-				<p>The Valar write not, and they reveal to few the things which their minds record.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>The Valar write not and forget not, but they reveal to few the things that they keep in memory.</p>
-			</div>
-			<!-- Row -->
-			<ID>3.4</ID>
-			<div>
-				<p>Therefore the tongues of the Elves that abode in Middle-earth and did not <RepD>go to Valinor are</RepD> little known, and <Del>not until they had been</Del> long sundered from their kindred in the West.</p>
-			</div>
-			<div>
-				<p>Therefore the tongues of the Elves that abode in Middle-earth and did not <Rep>follow Orome <RepD>were</RepD></Rep> little known <Add>to the Eldar</Add>, and long sundered from their kindred in the West <Rep>the speech of the <i>Avari</i> was unknown</Rep>.</p>
-			</div>
-			<div>
-				<p>Therefore the tongues of the Elves that abode in Middle-earth and did not follow Orome <Rep>are</Rep> little known to the Eldar, and <Rep>the earliest knowledge that survives comes only from later days when the <i>Avari</i> had</Rep> long <Rep>been</Rep> sundered from their kindred in the West.</p>
-			</div>
-			<Same />
-			<div>
-				<p>So it is that the tongues of the Elves that remained in Middle-earth and did not follow Orome were little known to the Eldar, and indeed the earliest knowledge of these matters that survives amongst us comes only from later times when the Avari had long been sundered from their kindred in the West.</p>
-			</div>
-			<!-- Row -->
-			<ID>4.1</ID>
-			<div>
-				<p>§2 The most ancient structure of the tongue common to all the <i>Qendi</i> is, therefore, guessed or deduced from a comparison one with another of the written forms of the languages of Valinor, and of such records of the tongues of the <RepD>Dark-elves</RepD> as we here in <i>Eressea</i> in these <RepD>latest</RepD> days <Del>have knowledge</Del>.</p>
-			</div>
-			<div>
-				<p>§2 The most ancient structure of the tongue common to all the <i>Qendi</i> is, therefore, <Add>not known even to the Elves, though some things may be</Add> guessed or deduced from a comparison one with another of the written forms of the languages of Valinor, and of such records of the tongues of the <Rep>Avari</Rep> as we here in <i>Eressea</i> <Add>have gathered</Add> in these <Rep>later</Rep> days.</p>
-			</div>
-			<Same />
-			<Same />
-			<div>
-				<p>§2 The most ancient structure of the tongue common to all the Qendelie is, therefore, not known to the Elves, though some things may be guessed or discovered by those who will compare one with another the written forms of the Eldarin languages of Valinor, together with such records of the Avari as we here in Eressea have set down in these later days.</p>
-			</div>
-			<!-- Row -->
-			<ID>4.2</ID>
-			<div>
-				<p>The languages most fully treated are:</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>The languages that are most fully treated are:</p>
-			</div>
-			<!-- Row -->
-			<ID>4.3</ID>
-			<div>
-				<p>firstly the <i>Qenya</i>, <Add>[</Add>or <i>Elf-latin</i><Add>,]†</Add> derived mainly from the ancient speech of the <i>Lindar</i> as it was in the days of bliss, for this tongue is used still in speech and writing by all <RepD>Elves</RepD>;</p>
-			</div>
-			<div>
-				<p>firstly the <i>Qenya</i>, [or <i>Elf-latin</i>,]† derived mainly from the ancient speech of the <i>Lindar</i> as it was in the days of bliss, for this tongue is used still in speech and writing by all <Rep>the Eldar</Rep>;</p>
-			</div>
-			<Same />
-			<Same />
-			<div>
-				<p>firstly the <i>Quenya</i> [or Elf-latin†], which is indeed but the ancient speech of the Vanyar and Noldor as it was in the days of Bliss; for this tongue is used still both in writing and in speech by all the Eldar of Valinor;</p>
-			</div>
-			<!-- Row -->
-			<ID>4.4</ID>
-			<div>
-				<p><Add>†[quoth Ælfwine]</Add></p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>† Quoth Ælfwine</p>
-			</div>
-			<!-- Row -->
-			<ID>4.5</ID>
-			<div>
-				<p>and secondly the <i>Noldorin</i> or Gnomish in its long and changeful history, which is fully known.</p>
-			</div>
-			<div>
-				<p>and secondly the <i>Noldorin</i> or Gnomish in its long and changeful history, which is fully known <Add>to us</Add>.</p>
-			</div>
-			<Same />
-			<Same />
-			<div>
-				<p>and secondly the <i>Sindarin</i> or Grey-elven in its long and changeful history, of which a little is known to us.</p>
-			</div>
-			<!-- Row -->
-			<ID>4.6</ID>
-			<div>
-				<p>Something is also said concerning the <i>Telerin</i> languages, both those of Valinor and of Beleriand. What is known of the <i>Danian</i> tongues, especially that of <i>Ossiriand</i>, is also told.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>Something also is said of the <i>Telerin</i> language of Valinor. What is known of the <i>Danian</i> tongues of old, especially that of Ossiriand, is also told.</p>
-			</div>
-			<!-- Row -->
-			<ID>4.7</ID>
-			<div>
-				<p>Little is said of the diverse tongues in use among the scattered elves that refused to follow <i>Orome</i>, the <i>Avari</i> of old, who now are <del>fading</del> hidden in remote places of Middle-earth, or else have vanished from the world.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>Little is said of the <i>Avarin</i> tongues, many and diverse, that were used of old in Middle-earth. There they linger still in remote places where the Avari hide themselves from Men.</p>
-			</div>
-			<!-- Row -->
-			<ID>5</ID>
-			<div>
-				<p><i>The Division of Tongues.</i></p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p><i>The Division of Tongues</i></p>
-			</div>
-			<!-- Row -->
-			<ID>6.1</ID>
-			<div>
-				<p>§3 The whole Elf-race is named the <b>Qendi</b>.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>§3 The whole Elf-race is named the <b>Quendi</b>.<sup>¶</sup></p>
-			</div>
-			<!-- Row -->
-			<ID>6.2</ID>
-			<None />
-			<div>
-				<p>This name they gave to themselves, and it means ‘Those that <del>Speak</del> <del>Awoke</del> Speak’ for at first the Elves knew no other living things that could speak, and it was long ere they met either the Dwarves of Aule or the Orcs of Melkor; and the days of Men were yet far distant.</p>
-			</div>
-			<Same />
-			<Same />
-			<div>
-				<p>¶ This name they gave to themselves, and it means “Those that Speak”. For at first the Elves knew no other living things that made or used words, and it was long ere they met either the Dwarves of Aule, or the Orcs of Melkor; and the days of Men were yet far distant.</p>
-			</div>
-			<!-- Row -->
-			<ID>6.3</ID>
-			<div>
-				<p>All their tongues are therefore <i>Qenderin</i>, or in English <RepD><i>Cwendish</i></RepD>, or <i>Quendian</i>.</p>
-			</div>
-			<div>
-				<p>All their tongues are therefore <i>Qenderin</i>, or in English <Rep><i>Cwendisc</i></Rep>, or <i>Quendian</i>.</p>
-			</div>
-			<Same />
-			<Same />
-			<div>
-				<p>All their tongues are called therefore <i>Quenderin</i>, or in English <i>Quendian</i> [<i>Cwendisc</i>: Ælfwine].</p>
-			</div>
-			<!-- Row -->
-			<ID>7</ID>
-			<div>
-				<p>The <i>first</i> Division was into <b>Eldar</b> and <b>Avari</b>. The <i>Eldar</i> left the places of their awakening and followed <i>Orome</i> westward. The <i>Avari</i> refused to follow him and remained behind. Their languages were thus very early divided into the branches <i>Eldarin</i>, and <i>Avarin</i>.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>The <i>first</i> division was into <b>Eldar</b> and <b>Avări</b>. The <i>Eldar</i> left the places of their awakening and followed Orome westward under the starlight: hence comes their name, the people of the Stars. The <i>Avari</i> refused to follow him and remained behind: hence they are so named, ‘those that refuse’. The language of the Quendelie was thus very early sundered into the branches <i>Eldarin</i> and <i>Avarin</i>.</p>
-			</div>
-			<!-- Row -->
-			<ID>8.1</ID>
-			<div>
-				<p>§4 The <i>second</i> Division befell when the followers of <RepD><i>Nano</i></RepD> (or <i>Dan</i>) forsook the main host of the <i>Noldor</i> upon the march, and wandered in Middle-earth.</p>
-			</div>
-			<Same />
-			<Same />
-			<div>
-				<p>§4 The <i>second</i> Division befell when the followers of <Rep><i>Nanno</i></Rep> (or <i>Dan</i>) forsook the main host of the <i>Noldor</i> upon the march, and wandered in Middle-earth.</p>
-			</div>
-			<div>
-				<p>§4 The <i>second</i> division befell when the followers of that lord that is named <i>Nano</i> or <i>Dân</i> forsook the hosts of the Teleri upon the long march and wandered in Middle-earth.</p>
-			</div>
-			<!-- Row -->
-			<ID>8.2</ID>
-			<div>
-				<p>These are the <RepD><b>Pereldar</b></RepD>, <Del>or ‘Half-eldians’,</Del> or the Danian Elves,† and their tongues are distinct from the rest of the <i>Eldarin</i> tongues, and yet more akin to them than to the <i>Avarin</i>.</p>
-			</div>
-			<div>
-				<p>These are the <Rep><b>Naneldar</b></Rep>, or Danian Elves,† and their tongues are distinct from the rest of the <i>Eldarin</i> tongues, and yet more akin to them than to the <i>Avarin</i>.</p>
-			</div>
-			<Same />
-			<Same />
-			<div>
-				<p>These are the <b>Nandor</b>, or Danian Elves,<sup>¶¶</sup> and their tongues were distinct from the other Eldarin tongues and yet more closely akin to them than to any tongue of the Avari.</p>
-			</div>
-			<!-- Row -->
-			<ID>8.3</ID>
-			<div>
-				<p>† Who were also in Ossirian called the <i>Laiquendi</i> or Green Elves.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>¶¶ Who were also in Ossiriand called the <i>Laiqendi</i> or Green Elves.</p>
-			</div>
-			<!-- Row -->
-			<ID>9.1</ID>
-			<div>
-				<p>§5 The <i>third</i> Division befell when the <b>Teleri</b>, coming late upon the march, remained for an age in <i>Beleriand</i>, after the <i>Lindar</i> and <i>Noldor</i> had gone to <i>Valinor</i>.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>§5 The <i>third</i> division befell when the <b>Teleri</b>, coming latest upon the march remained, for long years in Beleriand after the <b>Vanyar</b> and the <b>Noldor</b> had departed to Aman.</p>
-			</div>
-			<!-- Row -->
-			<ID>9.2</ID>
-			<None />
-			<None />
-			<None />
-			<None />
-			<div>
-				<p>This name, <i>Teleri</i>, they gave to themselves, for it signifies in their own tongue the Last-comers or the Enders. But they were called also the <i>Lindar</i>, because all this folk, of whatsoever branch, had the fairest voices, and they rejoiced most of all in song. The <i>Vanyar</i> were so named since they are the most blissful and beautiful of all the Elves; whereas <i>Noldor</i> signifies “those that have knowledge”, for the Noldor were lore-masters.</p>
-			</div>
-			<!-- Row -->
-			<ID>10.1</ID>
-			<div>
-				<p>§6 The <i>fourth</i> Division befell through the sundering of the <i>Teleri</i>.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>§6 The <i>fourth</i> division befell through the second sundering of the <i>Teleri</i>.</p>
-			</div>
-			<!-- Row -->
-			<ID>10.2</ID>
-			<div>
-				<p>Most departed and came at last to <i>Valinor</i>, and hence, though somewhat estranged in the beginning, their language renewed its kinship with the speech of <i>Lindar</i> and <i>Noldor</i>, and especially with the latter.</p>
-			</div>
-			<div>
-				<p>Most <Add>of this people</Add> departed and came at last to <i>Valinor</i>, and hence, though somewhat estranged in the beginning, their language renewed its kinship with the speech of <i>Lindar</i> and <i>Noldor</i>, and especially with the latter.</p>
-			</div>
-			<Same />
-			<Same />
-			<div>
-				<p>Most of this folk in the end departed from Middle-earth and came at last to Aman. Hence, though somewhat estranged in the earlier days, their language renewed its kinship and likeness to the speech of the Vanyar and Noldor.</p>
-			</div>
-			<!-- Row -->
-			<ID>10.3</ID>
-			<div>
-				<p>But many remained in <i>Beleriand</i>.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>But many of the Teleri remained behind in Beleriand.</p>
-			</div>
-			<!-- Row -->
-			<ID>10.4</ID>
-			<div>
-				<p>These were the <RepD><b>Lembi</b></RepD>, or those that were left behind. Their language became wholly estranged from that of their kin, and is called <i>Lemberin</i>.</p>
-			</div>
-			<div>
-				<p>These were the <Rep><b>Lemberi</b></Rep>, or those that were left behind. Their language became wholly estranged from that of their kin, and is called <RepD><i>Lemberin</i></RepD>.</p>
-			</div>
-			<div>
-				<p>These were the <Rep><b>Lembar</b></Rep>, or those that were left behind. Their language became wholly estranged from that of their kin, and is called <Rep><i>Lembarin</i></Rep>.</p>
-			</div>
-			<Same />
-			<div>
-				<p>These were the <b>Sindar</b> or Grey-elves. Their language became estranged from that of their kin that sailed over sea, and it is called <i>Sindarin</i>, and that tongue, as it was spoken in Beleriand is still the daily speech of Eressea.</p>
-			</div>
-			<!-- Row -->
-			<ID>11</ID>
-			<div>
-				<p>§7 The <i>fifth</i> Division befell in the course of ages, whereby the speech of the <b>Noldor</b> of <i>Túna</i> became a different language to that of the <b>Lindar</b>. These differences began anciently, even upon the march, but are revealed plainly to us first in records after the devising of letters in the days of <i>Rúmil</i> and <i>Fëanor</i>.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<None />
-			<!-- Row -->
-			<ID>12</ID>
-			<div>
-				<p>§8 The <i>sixth</i> Division befell through the Exile of the <i>Noldor</i>, who returned to Middle-earth and remained for 500 years in <i>Beleriand</i>. During that time their language became greatly changed, becoming unlike the <i>Noldorin</i> of old or of those <i>Noldor</i> that remained in <i>Valinor</i>, and in many ways more like the <i>Lemberin</i> and <i>Danian</i> tongues. The few <i>Noldor</i> that were not exiled, in the end lost their own speech and became merged with the <i>Lindar</i>.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>§8 The <i>fifth</i> division befell through the Exile of the Noldor who returned to Middle-earth and dwelt for well-nigh six hundred years in Beleriand. During that time their language became greatly changed, and grew to resemble the tongues of Beleriand, Sindarin and Nandorin. Those few of the Noldor that remained in Aman became merged with the Vanyar and did not retain their own speech.</p>
-			</div>
-			<!-- Row -->
-			<ID>13</ID>
-			<div class="border-2 border-red-800 rounded-md p-1">
-				<p>§9 <b>Qenderin</b> of ‘Quendian’ is thus the name of all Elf-tongues.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>§9 <b>Quenderin</b> or Quendian is thus the name of all the Elf-tongues.</p>
-			</div>
-			<!-- Row -->
-			<ID>14</ID>
-			<div class="border-2 border-red-800 rounded-md p-1">
-				<p><b>Eldarin</b> is the name of the tongues of the <i>Lindar, Noldor, Teleri</i> (of <i>Valinor</i> and <i>Beleriand</i>) and <RepD><i>Pereldar</i></RepD>.</p>
-			</div>
-			<div class="border-2 border-red-800 rounded-md p-1">
-				<p><b>Eldarin</b> is the name of the tongues of the <i>Lindar, Noldor, Teleri</i> (of <i>Valinor</i> and <i>Beleriand</i>) and <Rep><i>Naneldar</i></Rep>.</p>
-			</div>
-			<Same />
-			<Same />
-			<div>
-				<p>Whereas <b>Eldarin</b> is the common name of the tongues of the <i>Vanyar</i>, the <i>Noldor</i>, and the <i>Teleri</i> (including the <i>Sindar</i> and the <i>Nandor</i>).</p>
-			</div>
-			<!-- Row -->
-			<ID>15</ID>
-			<div class="border-2 border-red-800 rounded-md p-1">
-				<p><b>Avarin</b> is the name of the tongues of the <i>Avari</i>.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p><b>Avarin</b> is the name of the tongues of the Avari, concerning which the Eldar know little, and nothing before the Third Age.</p>
-			</div>
-			<!-- Row -->
-			<ID>16.1</ID>
-			<div class="border-2 border-red-800 rounded-md p-1">
-				<p><b>Koreldarin</b> is the name of the tongues of those who left Middle-earth, and came to <i>Kór</i>, the hill of the Elves in <i>Valinor</i>, namely the tongues of <i>Lindar</i> and <i>Noldor</i>. Sometimes this name includes <i>Telerin</i> of Valinor; though the right name that is given to these three, <i>Lindarin, Noldorin, Telerin</i>, is <RepD><i>Valinórea</i> or ‘Valinorian’</RepD>.</p>
-			</div>
-			<div class="border-2 border-red-800 rounded-md p-1">
-				<p><b>Koreldarin</b> is the name of the tongues of those who left Middle-earth, and came to <i>Kór</i>, the hill of the Elves in <i>Valinor</i>, namely the tongues of <i>Lindar</i> and <i>Noldor</i>. Sometimes this name includes <i>Telerin</i> of Valinor; though the right name that is given to these three, <i>Lindarin, Noldorin, Telerin</i>, is <Rep><i>Kalaquenderin</i>, the languages of the Elves of Light</Rep>. <Add>Whereas all those Elves that remained in Middle-earth whether Eldar or Avari are <i>Moriquendi</i> or Dark Elves.</Add></p>
-			</div>
-			<Same />
-			<Same />
-			<div>
-				<p><b>Kalaquenderin</b> is the name of the tongues of all those Elves who left Middle-earth and crossed the Sea and came to the shores of Aman. For those Elves are called the <i>Kalaquendi</i>, the Elves of the Light, whereas all others are named <i>Moriquendi</i>, Elves of the Dark.</p>
-			</div>
-			<!-- Row -->
-			<ID>16.2</ID>
-			<None />
-			<None />
-			<None />
-			<None />
-			<div>
-				<p>¶ But <i>Moriquenderin</i> is not used with regard to languages, since the tongues of the Dark Elves were many and divided.</p>
-			</div>
-			<!-- Row -->
-			<ID>17</ID>
-			<div class="border-2 border-red-800 rounded-md p-1">
-				<p>§10 The separate tongues still used, or still in some part recorded are named:</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>§10 The separate Elf-tongues that are still spoken or written, or are still in some part recorded and known to the lore-masters, are thus named as follows.</p>
-			</div>
-			<!-- Row -->
-			<ID>18.1</ID>
-			<div class="border-2 border-red-800 rounded-md p-1">
-				<p>1. <b>Qenya</b> <Del>or more anciently <i>Qendya</i></Del>. This <RepD>is</RepD> the language of the <i>Lindar</i> as it was anciently in <i>Valinor</i> in the days of Bliss. It is given this name <Del>for three reasons: because</Del> <Move>it is the common language of all the <i>Qendi</i> when they converse with the elves of other speech;</Move> <Del>because the name</Del> <i>Lindarin</i> is now used for that changed form of their own ancient language <Del>(<i>Qendya</i>)</Del> which the <i>Lindar</i> speak among themselves in <RepD>these</RepD> later days;</p>
-			</div>
-			<div class="border-2 border-red-800 rounded-md p-1">
-				<p>1. <b>Qenya</b>. This <Rep>was in origin</Rep> the language of the <i>Lindar</i> as it was anciently <Add>spoken and written</Add> in <i>Valinor</i> in the days of Bliss. It is given this name <Add>since</Add> <i>Lindarin</i> is now used for that changed form of their own ancient language which the <i>Lindar</i> <Add>spoke and</Add> speak among themselves in <Rep>the</Rep> later days.</p>
-			</div>
-			<div class="border-2 border-dashed border-red-800 rounded-md p-1">
-				<p class="bg-sky-200 rounded-md p-1"><del>It is in o</del> This name meant in the beginning simple “language” (see above p. 3), or in contrast to other speeches that the Quendi met later “Elf language”. <del>The name was retained because <i>Lindarin</i></del> But the language now called <i>Qenya</i>, or <i>Tarqenya</i> the ‘High Speech’, was in fact in origin derived from the speech of the eldest Elf-kindred, the <i>Lindar</i>, as that was written down in Valinor in the days of Bliss. The name <i>Qenya</i> is nonetheless retained to this day.</p>
-			</div>
-			<Same />
-			<div>
-				<p>1. <b>Quenya</b>. This name meant in the beginning simply “language” (see above p. 3), or in contrast to other speeches that the Quendi met later in the world, “elf-language”. But the tongue that is now called <i>Quenya</i>, or <i>Tarquenya</i>, the High Speech, was in fact in origin the speech of the eldest Elf-kindred, the <i>Vanyar</i>, as that was written down in Aman in the Days of Bliss. The name <i>Quenya</i> is nonetheless retained to this day, since <i>Vanyarin</i> is used for that changed form of their own ancient speech which the Vanyar use among themselves in these later days.</p>
-			</div>
-			<!-- Row -->
-			<ID>18.2</ID>
-			<div>
-				<p class="text-slate-500"><span>[<i>in 18.1</i>]</span> it is the common language of all the <i>Qendi</i> when they converse with the elves of other speech;</p>
-			</div>
-			<div class="border-2 border-red-800 rounded-md p-1">
-				<p><Add>Also the <i>Qenya</i> has for ages been used as a common tongue among the Eldar whose native <del>speech is sundered</del> speeches are diverse, and this tongue is no longer felt to belong to any one kindred more than to another.</Add></p>
-			</div>
-			<Same />
-			<Same />
-			<div>
-				<p>Also the <i>Quenya</i> has for ages been used as a common tongue among all the Eldar, whose native speeches have become diverse, and this tongue is no longer felt to belong to any one kindred more than to another.</p>
-			</div>
-			<!-- Row -->
-			<ID>18.3.1</ID>
-			<None />
-			<None />
-			<None />
-			<None />
-			<div>
-				<p>In the early days the language of the <i>Vanyar</i> became the language of nobler use among all the Eldar, because of the primacy of the <i>Vanyar</i>, and of their king.</p>
-			</div>
-			<!-- Row -->
-			<ID>18.3.2</ID>
-			<div class="border-2 border-red-800 rounded-md p-1">
-				<p><Del>and because</Del> the <i>Valar</i> use <RepD><i>Qenya</i> always in conversing with</RepD> any of the <RepD>elf-race</RepD>, and they call <RepD>therefore this tongue so, meaning simply ‘Elvish’</RepD>.</p>
-			</div>
-			<div class="border-2 border-red-800 rounded-md p-1">
-				<p>The Valar <Add>also</Add> use <Rep>this tongue if they will speak to</Rep> any of the <Rep>Eldar</Rep>, and they <Add>too</Add> call <Rep>it Qenya</Rep> <del>meaning</del> <Rep>or Elf language</Rep>.</p>
-			</div>
-			<Same />
-			<Same />
-			<div>
-				<p>Also because the Vanyar were closest in friendship with the Valar, and the Valar used their tongue, Quenya, when they would speak with any of the Eldar;</p>
-			</div>
-			<!-- Row -->
-			<ID>18.4</ID>
-			<div class="border-2 border-red-800 rounded-md p-1">
-				<p>Their own tongue the <RepD>gods</RepD> do not use save among themselves, and of their <RepD>own</RepD> tongue, <i>Valarin</i>, as it was and is the Qendi have now little knowledge.</p>
-			</div>
-			<div class="border-2 border-red-800 rounded-md p-1">
-				<p>Their own tongue the <Rep>Valar</Rep> do not use save among themselves, and of their <Rep>primeval</Rep> tongue, <i>Valarin</i>, as it was and is the Qendi have now little knowledge.</p>
-			</div>
-			<Same />
-			<Same />
-			<div>
-				<p>for their own tongue the Valar do not use save among themselves, and of their primeval speech, the <i>Valarin</i>, as it was and is even the loremasters of the Eldar know nothing.</p>
-			</div>
-			<!-- Row -->
-			<ID>18.4</ID>
-			<None />
-			<None />
-			<None />
-			<None />
-			<div>
-				<p>Moreover, the Vanyar were the fairest of all the Quendelie, and their tongue was the richest and most beautiful, although it was in many points more changed from the common tongue of old than was either ancient Noldorin or Telerin.</p>
-			</div>
-			<!-- Row -->
-			<ID>19.1</ID>
-			<div class="border-2 border-red-800 rounded-md p-1">
-				<p><i>Qenya</i><Add>†</Add> is in its written form also called <b>Parmaqesta</b> or ‘book-language’.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>§11 <i>Quenya</i> is in its written form also called <b>Parmaquesta</b>, or “book-language”.</p>
-			</div>
-			<!-- Row -->
-			<ID>19.2</ID>
-			<None />
-			<div class="border-2 border-dashed border-red-800 rounded-md p-1">
-				<p>† This is derived direct from the stem <i>kwen-</i> from which the name <i>Qendi</i> (<i>kwenedī</i>) is another derivative. It thus means in origin simply ‘language’ or ‘elf-language’.</p>
-			</div>
-			<Same />
-			<Same />
-			<None />
-			<!-- Row -->
-			<ID>19.3</ID>
-			<div class="border-2 border-red-800 rounded-md p-1">
-				<p>This <Add>[</Add>is the <i>Elf-latin</i>; and<Add>]†</Add> is retained in spelling and grammar even as it was of old.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>This is [†the Elf-latin and is] retained in spelling and grammar even as it was of old.</p>
-			</div>
-			<!-- Row -->
-			<ID>19.4</ID>
-			<div class="border-2 border-red-800 rounded-md p-1">
-				<p>It is used in <i>Valinor</i> and <i>Eressea</i> for many kinds of writing: histories, legends, hymns, poems, and other lore.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>It is used still in <i>Valinor</i> and in <i>Eressea</i> for many kinds of writing: histories, legends, hymns, poems, and other lore.</p>
-			</div>
-			<!-- Row -->
-			<ID>19.5</ID>
-			<div class="border-2 border-dashed border-red-800 rounded-md p-1">
-				<p><Add>†[quoth Ælfwine]</Add></p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>† quoth Ælfwine.</p>
-			</div>
-			<!-- Row -->
-			<ID>19.6</ID>
-			<None />
-			<None />
-			<None />
-			<div>
-				<p>Qenya is also called <i>Tarquesta</i> or the High Speech. In its classical or <del>unaltered</del> written form it is called <i>Parmaquesta</i>, and in older stages of which some knowledge is possessed by the loremasters of the Eldar it is called <i>Old Lindarin</i>.</p>
-			</div>
-			<None />
-			<!-- Row -->
-			<ID>19.7</ID>
-			<div>
-				<p><i>Qenya</i> when spoken is called also <b>Tarqesta</b>, that is ‘high language’.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>When it is spoken, Quenya is called also <b>Tarquesta</b>, or “high language”.</p>
-			</div>
-			<!-- Row -->
-			<ID>19.8</ID>
-			<div>
-				<p>In pronunciation it is in <RepD>a few</RepD> points changed <Del>from the old manner (as still revealed by the written spelling)</Del>, and it admits words that were not in <i>Qenya</i> anciently, being new-found or borrowed from other tongues.</p>
-			</div>
-			<div>
-				<p>In pronunciation <Add>and in grammar</Add> it is in <Rep>some</Rep> points changed, and it admits words that were not in <i>Qenya</i> anciently, being new-found or borrowed from other tongues.</p>
-			</div>
-			<Same />
-			<Same />
-			<div>
-				<p>In pronunciation and in grammar this spoken form is in some points changed from the manner of the older and higher <i>Parmaquesta</i> (as is revealed by the ancient spelling), and it admits words that were not in Quenya anciently, being new-found or borrowed from other tongues.</p>
-			</div>
-			<!-- Row -->
-			<ID>19.9</ID>
-			<None />
-			<div class="border-2 border-red-800 rounded-md p-1">
-				<p>This form of language represents a somewhat later stage than the fixed and written Parmaquesta, and shows some of the features of the changes of the Lindarin speech towards its later form. But by constant reference to the written PQ it is <del>prevented</del> preserved from further change.</p>
-			</div>
-			<None />
-			<None />
-			<None />
-			<!-- Row -->
-			<ID>19.10</ID>
-			<None />
-			<div>
-				<p><del>Since after the changes of the Eldarin tongues and the Lindarin among them, the written signs of <i>Parmaquesta</i> were interpreted</del> It thus shows some variations in usage among the three kindreds of the Eldalie.</p>
-			</div>
-			<None />
-			<None />
-			<div>
-				<p>Owing to the influence of the native speeches of the different Elf-kindreds it shows some variations in pronunciation;</p>
-			</div>
-			<!-- Row -->
-			<ID>19.11</ID>
-			<div>
-				<p><RepD>Its purest form is that used by</RepD> the <i>Lindar</i> of the household of <i>Ingwe</i>.</p>
-			</div>
-			<div>
-				<p><Rep>The usage of</Rep> the <i>Lindar</i><Add>, especially those</Add> of the household of <i>Ingwe</i><Rep>, is regarded as the best, or most correct</Rep>.</p>
-			</div>
-			<Same />
-			<Same />
-			<div>
-				<p>but the usage of the <i>Vanyar</i>, especially those of the household of <i>Iñgwe</i>, is regarded as the best.</p>
-			</div>
-			<!-- Row -->
-			<ID>19.12</ID>
-			<None />
-			<div>
-				<p>But in fact the Noldor, and especially the loremasters among them (for the Noldor have no rivals in such matters), use forms more archaic and nearer to the ancient PQ. This is <Unc>notably</Unc> so in the matter of pronunciation, since the usage of the Lindarin shows the effect of the changes <Unc>in their common</Unc> speech in later days. On this point see <Unc>below</Unc>.</p>
-			</div>
-			<Same />
-			<Same />
-			<div>
-				<p>Yet in fact the <i>Noldor</i>, and especially the loremasters among them (for the <i>Noldor</i> have no rivals in learning) use both sounds and forms that are more archaic and nearer to the written <i>Parmaquesta</i>. This is true especially in the matter of pronunciation, since the usage of the Vanyar shows the effect of the changes in their daily speech of later days. All these matters are treated more fully below.</p>
-			</div>
-			<!-- Row -->
-			<ID>20</ID>
-			<None />
-			<None />
-			<None />
-			<None />
-			<div>
-				<p>The <i>Parmaquesta</i> belongs to VY. 2500 at the earliest, and is contemporary with the ancient <i>Noldorin</i>, from which it is already widely different.</p>
-			</div>
-			<!-- Row -->
-			<ID>21.1</ID>
-			<div>
-				<p>2. <b>Lindarin</b>: the daily speech of the <i>Lindar</i>, as it now is.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>§ 12 2. <b>Vanyarin</b>.This name is given to all forms of the language of this kindred, after the ancient speech (Quenya, enshrined in the <i>Parmaquesta</i>) had ceased to be used as a daily language.</p>
-			</div>
-			<!-- Row -->
-			<ID>21.2</ID>
-			<None />
-			<None />
-			<None />
-			<None />
-			<div>
-				<p>The earliest records of the speech of the Vanyar, preserved partly in some ancient traditional lore, partly in a few ancient inscriptions and writings in the alphabet of Rumil (belonging to a period about VY. 2200 or a little later), begin before the period of Parmaquesta.</p>
-			</div>
-			<!-- Row -->
-			<ID>21.3</ID>
-			<None />
-			<None />
-			<None />
-			<None />
-			<div>
-				<p>The language of these ancient fragments is sometimes called Ancient Vanyarin, but since it is only an archaic form of Quenya, it is better to call it Ancient Quenya, and to reserve Vanyarin for forms later than Parmaquesta.</p>
-			</div>
-			<!-- Row -->
-			<ID>21.4</ID>
-			<None />
-			<None />
-			<None />
-			<None />
-			<div>
-				<p>This is also more fitting, because at that ancient date the tongues of the Vanyar and Noldor had as yet very little diverged.</p>
-			</div>
-			<!-- Row -->
-			<ID>22.1</ID>
-			<div>
-				<p>3. <b>Telerin</b>: the speech of the <i>Teleri</i> of <i>Valinor</i>.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div class="border-2 border-amber-500 rounded-md p-1">
-				<p>§14. 4. <b>Telerin</b>. This name is often given to the tongues of any Elf-people that are of Telerian origin. But the name is best reserved for the language of the <i>Teleri</i> that came at last to <i>Valinor</i>.</p>
-			</div>
-			<!-- Row -->
-			<ID>22.2</ID>
-			<None />
-			<None />
-			<None />
-			<None />
-			<div class="border-2 border-amber-500 rounded-md p-1">
-				<p>For though, during their sojourn on the west shores, their language became somewhat sundered from that of the <i>Vanyar</i> and <i>Noldor</i> who had preceded them (and of that severance some marks ever remained), nonetheless in Valinor, their speech became more like to <i>Kalaquenderin</i> and utterly unlike that of their kinsfolk, the <i>Sindar</i>, who remained behind.</p>
-			</div>
-			<!-- Row -->
-			<ID>22.3</ID>
-			<div>
-				<p><b>Yára-telerin</b> is ‘Old Telerin’ of the days of Bliss, of which the records are scanty.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div class="border-2 border-amber-500 rounded-md p-1">
-				<p><i>Ancient Telerin</i> is the name of the earliest known forms of this speech; but the records are scanty. The Teleri made countless songs of great beauty, of which some descending from the far past are held in memory; but they used letters seldom.</p>
-			</div>
-			<!-- Row -->
-			<ID>23.1</ID>
-			<div>
-				<p>4. <b>Noldorin</b>: the speech of the <i>Noldor</i>, or Gnomes, since its first records in Túna until now when it survives still in <i>Tol Eressea</i>.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>§13 3. <b>Noldorin</b>.  All the speeches or dialects of the <i>Noldor</i> have this name, from the most ancient records in <i>Túna</i>, until now when the much changed language of the Exiles survives still among those who have returned at last to <i>Tol Eressea</i>.</p>
-			</div>
-			<!-- Row -->
-			<ID>23.2.1</ID>
-			<div>
-				<p><b>Yára-noldorin</b>, or <i>Kornoldorin</i> is the ancient form that it had before the Exile: this is <i>Old Noldorin</i>.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p><i>Ancient Noldorin</i> (<b>Yáranoldorin</b>) and <b>Túnanoldorin</b> are the names given to the forms of this speech as it was before the Exile.</p>
-			</div>
-			<!-- Row -->
-			<ID>23.2.2</ID>
-			<None />
-			<None />
-			<None />
-			<None />
-			<div>
-				<p>It is better to reserve <i>Ancient Noldorin</i> for the earliest period, contemporary with <i>Ancient Quenya</i>, when the tongues of the Vanyar and Noldor had yet only begun to diverge. On the other hand <i>Túnanoldorin</i> or <i>Túnarin</i>* is contemporary with <i>Parmaquesta</i>, and shows from the first much divergence from <i>Quenya</i> (and <i>Telerin</i>), becoming already before the Exile a wholly distinct speech, in which many of the great changes that took place during the Exile are foreshadowed.</p>
-			</div>
-			<!-- Row -->
-			<ID>23.2.3</ID>
-			<None />
-			<None />
-			<None />
-			<None />
-			<div>
-				<p>* for after a while the <i>Lindar</i> forsook <i>Túna</i>, and there only the <i>Noldor</i> dwelt.</p>
-			</div>
-			<!-- Row -->
-			<ID>23.3</ID>
-			<div>
-				<p>The periods of <b>Etya-noldorin</b> or ‘Exiled Noldorin’ are divided into various parts, as is later described.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>After the Exile that remnant of the Noldor that did not depart became merged with the Vanyar at least in speech, and Noldorin perished in Valinor. The speech of the Exiles is called <b>Etyarin</b> or <b>Etya-noldorin</b>, that is “Exilic or Exile-Noldorin”. The loremasters have divided its later history into various periods and dialects, as is later described.</p>
-			</div>
-			<!-- Row -->
-			<ID>23.4</ID>
-			<div>
-				<p>The dialect of <i>Gondolin</i> is best known and earliest recorded: its oldest records are named ‘early Exilic’.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>Of these the dialect of <i>Gondolin</i> is best known, and earliest recorded: its earliest surviving records are called “early Etyarin”.</p>
-			</div>
-			<!-- Row -->
-			<ID>23.5</ID>
-			<div>
-				<p>Other dialects, differing only in slight points, were those of <i>Hithlum</i>, the <i>Falas</i>, <i>Nargothrond</i>, and the <i>Fëanorian</i> or dialect of <i>East-Beleriand</i> and of the folk of the sons of <i>Fëanor</i>.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>Other dialects were those of Hithlum, the Falas, Nargothrond, and of East Beleriand (the speech of the sons of Feanor and their people). These dialects did not differ greatly one from another.</p>
-			</div>
-			<!-- Row -->
-			<ID>23.6</ID>
-			<None />
-			<None />
-			<None />
-			<None />
-			<div>
-				<p>The language of the returned Exiles in Eressëa is derived in the main from the speech of Gondolin. So also was the Elvish speech adopted by the <i>Atani</i>, the Fathers of Men, and spoken by the high men of <i>Númenor</i> in that isle, and after during the Third Age upon the western shores of Middle-earth.</p>
-			</div>
-			<!-- Row -->
-			<ID>24.1.1</ID>
-			<div>
-				<p>5. <b>Lemberin</b>: also called <RepD><i>Ilkorin</i></RepD>* was the tongue of the Teleri that remained in Beleriand.</p>
-			</div>
-			<div>
-				<p>5. <Mis><b>Lemberin</b></Mis>: also called <Rep><i>Alkorin</i></Rep>* was the tongue of the Teleri that remained in Beleriand.</p>
-			</div>
-			<Same />
-			<Same />
-			<div>
-				<p>§15 5. <b>Sindarin</b>. This is the name of those Elves of Telerian race that remained in Beleriand.</p>
-			</div>
-			<!-- Row -->
-			<ID>24.1.2</ID>
-			<None />
-			<None />
-			<None />
-			<None />
-			<div>
-				<p>Abiding as they did in the twilight of Middle-earth, far-sundered from their kin, their language changed more quickly than the tongues of Valinor, and went its own way, becoming soon wholly unlike them, and showing, save to the eyes of loremasters, little kinship with the Telerian speech of Elvenhome in the West. These folk the <i>Noldor</i> named also <i>Alamanyar</i>,<sup>¶</sup> meaning those who never crossed the sea or beheld the Blessed Land of <i>Aman</i>; but themselves they called the <i>Eglath</i> ‘the Forsaken’.</p>
-			</div>
-			<!-- Row -->
-			<ID>24.2</ID>
-			<div>
-				<p>Before the coming of the <i>Noldor</i> it was spoken far and wide in <i>Beleriand</i> (save in <i>Ossiriand</i>) and all the names of places, of rivers, woods, fields, plains, hills and mountains were given in this tongue. Many of these remained and were used by the <i>Noldor</i>; others remained beside new Noldorin names.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>§16 Before the coming of the Exiled Noldor, the <i>Sindarin</i> (or <i>Eglathrin</i>) was spoken far and wide in Beleriand, save only in <i>Ossiriand</i>. All the names of places: of rivers, woods, plains, mountains and hills: in that land were at first given in that tongue. Many of these remained, and were used by the Noldor with little or no change.</p>
-			</div>
-			<!-- Row -->
-			<ID>24.3</ID>
-			<div>
-				<p>* But this name is not rightly a linguistic name, and includes also the <Mis><i>Pereldar</i></Mis>, and all who began the march, but did not come to <i>Kór</i>.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div class="border-2 border-amber-500 rounded-md p-1">
-				<p>¶ But this name was not used with reference to languages; for it applied also to the <i>Nandor</i>.</p>
-			</div>
-			<!-- Row -->
-			<ID>24.4</ID>
-			<div>
-				<p>After the coming of the <i>Noldor</i> the <Mis><i>Lemberin</i></Mis> tongues remained in use, save among scattered companies, mainly on the West Coast in the havens of the <i>Falas</i>, and in the strong realm of Thingol, <i>Doriath</i> in the midst of <i>Beleriand</i>.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>After the coming of the Noldor the Sindarin tongues remained in use, among wandering companies in the woods and hills. But on the west coast of Beleriand in the Havens of the Falas, and the strong realm of Thingol in the land of Doriath, it was the language of many folk and was there maintained until the ruin of Beleriand.</p>
-			</div>
-			<!-- Row -->
-			<ID>24.5</ID>
-			<div>
-				<p><b>Doriathren</b> is the language of which most record and memory is still preserved.</p>
-			</div>
-			<div>
-				<p><b>Doriathren</b> is the <Add>Lemberin</Add> language of which most record and memory is still preserved.</p>
-			</div>
-			<div>
-				<p><b>Doriathren</b> is the <Rep>Lembarin</Rep> language of which most record and memory is still preserved.</p>
-			</div>
-			<Same />
-			<div>
-				<p><b>Doriathrin</b> is the Sindarin language of which most record and memory is still preserved; and it is spoken still by the last remnant of Doriath that dwell in the east of the Isle of Eressëa.</p>
-			</div>
-			<!-- Row -->
-			<ID>25.1</ID>
-			<None />
-			<None />
-			<None />
-			<None />
-			<div>
-				<p>§17 In its development in Middle-earth <i>Noldorin</i> grew more and more to resemble <i>Sindarin</i>, and though when more closely observed these tongues can readily be seen to be far-sundered, yet in sound and style and idiom they are much alike. This the loremasters ascribe in the first place to the influence of the land itself, that Beleriand which is now lost in which both tongues dwelt and changed. But the influence of the peoples, one upon the other, and of their tongues was not without effect. In spite of estrangements and enmities in those unhappy days of war and exile, when the lies and webs of Morgoth were woven, the <i>Sindar</i> and <i>Noldor</i> had much intercourse, and indeed were often mingled, so that each took words from the other.</p>
-			</div>
-			<!-- Row -->
-			<ID>25.2</ID>
-			<None />
-			<None />
-			<None />
-			<None />
-			<div>
-				<p>For many of the <i>Alamanyar</i> joined the hosts of the Noldo-chieftains; and in the days of defeat many of the Noldor took refuge with Thingol in Doriath.</p>
-			</div>
-			<!-- Row -->
-			<ID>25.3</ID>
-			<None />
-			<None />
-			<None />
-			<None />
-			<div>
-				<p>There were Alamanyar of Doriath in the remnant that gathered under Ëarendil at the Mouths of Sirion; and Ëarendil drew his blood not only from Men, but also from both Noldor and <i>Alamanyar</i>.</p>
-			</div>
-			<!-- Row -->
-			<ID>26.1</ID>
-			<div>
-				<p>6. Of the tongue of the Danian Elves, or <RepD><b>Pereldarin</b></RepD>, record is still preserved of the language of <i>Ossiriand</i> in the days before the ruin of <i>Beleriand</i>.</p>
-			</div>
-			<div>
-				<p>6. Of the tongue of the Danian Elves, or <Rep><b>Naneldarin</b></Rep>, record is still preserved of the language of <i>Ossiriand</i> in the days before the ruin of <i>Beleriand</i>.</p>
-			</div>
-			<Same />
-			<Same />
-			<div>
-				<p>§18 6. <b>Nandorin</b>, or Danian. This people were originally part of the Teleri, and of the host of Olwe, and though their later speech was a speech apart it showed still that it was of the Eldarin kin. A branch of the Danian Elves, turning at last westward again, crossed the mountains and came down into eastern Beleriand. There they dwelt long in Ossiriand, the Land of Seven Rivers, but were secret and had little converse with the Sindar or with the Noldor. They were called the “Green Elves” (<i>Laiquendi</i> in Quenya) by the other folk of Beleriand. After the ruin of their realm many took refuge with Thingol in Doriath, and thus record was there preserved of their ancient tongue, and is kept still, though incomplete, in Eressea.</p>
-			</div>
-			<!-- Row -->
-			<ID>26.2</ID>
-			<div>
-				<p>This is called <b>Ossiriandren</b> or Ossiriandish.</p>
-			</div>
-			<Same />
-			<Same />
-			<Same />
-			<div>
-				<p>This West-Danian tongue is usually named <b>Ossiriandrin</b>, or <i>Ossiriandish</i>, though by some it is called <i>Laiquenderin</i>.</p>
-			</div>
-			<!-- Row -->
-			<ID>26.3</ID>
-			<None />
-			<None />
-			<None />
-			<None />
-			<div>
-				<p>Of the East-Danian beyond the mountains, from which it is said that the <i>Atani</i>, the Fathers of Men, learned much of their first speech, nothing is now known in Eressëa.</p>
-			</div>
-			<!-- Row -->
-			<ID>27</ID>
-			<div>
-				<p>§11 Letters used in naming forms derived from the <i>Qenderin</i> languages: <RepD><b>CQ</b></RepD> is primitive, or original common, <i>Quendian</i> (Qenderin).</p>
-			</div>
-			<div>
-				<p>§11 Letters used in naming forms derived from the <i>Qenderin</i> languages: <Rep><b>Prim</b></Rep> is primitive, or original common, <i>Quendian</i> (Qenderin) <Add>or Elvish</Add>.</p>
-			</div>
-			<Same />
-			<div>
-				<p>§11 Letters used in naming forms derived from the <i>Qenderin</i> languages: <Rep><b>PE</b></Rep> is primitive, or original common, <i>Quendian</i> (Qenderin).</p>
-			</div>
-			<div>
-				<p>§19 These letters and abbreviations are used in the following histories and grammars for the names of those Quendian tongues that are cited or mentioned.</p>
-			</div>
-			<!-- Row -->
-			<ID>28.1</ID>
-			<div>
-				<ul>
-					<li><b>Av.</b> <i>Avarin</i>.</li>
-					<li><b>Dor.</b> <i>Doriath</i>-dialect of <i>Lemberin</i>.</li>
-					<li><b>Dan.</b> <i>Danian</i>.</li>
-					<li><b>E.</b> <i>Eldarin</i>.</li>
-					<li><b>Fal.</b> <i>Falas</i>-dialect of <RepD><i>Lemberin</i></RepD> and of <i>Noldorin</i>.</li>
-					<li><b>Fean.</b> <i>Fëanorian</i> or <i>Eastern</i> dialect of <i>Exilic Noldorin</i>.</li>
-					<li><b>Gon.</b> <i>Gondolin</i>-dialect of <i>Noldorin</i>.</li>
-					<li><RepD><b>I</b> or <b>Ilk.</b> <i>Ilkorin</i></RepD> that is <RepD><i>Lemberin</i></RepD>.</li>
-				</ul>
-			</div>
-			<Same />
-			<div>
-				<ul>
-					<li><b>Av.</b> <i>Avarin</i>.</li>
-					<li><b>Dor.</b> <i>Doriath</i>-dialect of <Mis><i>Lemberin</i></Mis>.</li>
-					<li><b>Dan.</b> <i>Danian</i>.</li>
-					<li><b>E.</b> <i>Eldarin</i>.</li>
-					<li><b>Fal.</b> <i>Falas</i>-dialect of <Rep><i>Lembarin</i></Rep> and of <i>Noldorin</i>.</li>
-					<li><b>Fean.</b> <i>Fëanorian</i> or <i>Eastern</i> dialect of <i>Exilic Noldorin</i>.</li>
-					<li><b>Gon.</b> <i>Gondolin</i>-dialect of <i>Noldorin</i>.</li>
-					<li><Rep><b>Alk.</b></Rep> <Rep><i>Alkorin</i></Rep> that is <Rep><i>Lembarin</i></Rep>.</li>
-				</ul>
-			</div>
-			<Same />
-			<div>
-				<ul>
-					<li><b>AQ.</b> see Q., N.</li>
-					<li><b>Av.</b> <i>Avarin</i>.</li>
-					<li><b>Bel.</b> <i>Beleriandic</i>. This is used as a name for all the languages of the <i>Sindar</i> or Grey Elves (more properly called <i>Sindarin</i>). It does not include Danian, since <i>Ossiriand</i> though in fact part of Beleriand was regarded as a separate country.</li>
-					<li><b>C.</b> Common: as in CE, CQ.</li>
-					<li><b>Dan.</b> <i>Danian</i>, or <i>Nandorin</i>. Unless noted the language of Ossiriand is intended. <b>WDan</b>. for <i>West-Danian</i>, and <b>EDan</b>. for <i>East-Danian</i> are also used.</li>
-					<li><b>Dor.</b> <i>Doriathrin</i>. The chief Sindarin dialect; that of Doriath, the realm of King Thingol.</li>
-					<li><b>E.</b> <i>Eldarin</i>. This includes <i>Vanyarin</i>, <i>Noldorin</i> and <i>Telerin</i> (and its branches <i>Sindarin</i> and <i>Nandorin</i>). <b>CE</b> ‘Common Eldarin’ is the language of the Eldar before their divisions.</li>
-					<li><b>Ex.N.</b> <i>Exilic</i> or <i>Etya-noldorin</i>, the language of the Exiled Noldor in Beleriand.</li>
-					<li><b>Fal.</b> The dialect of the <i>Falas</i>, either of <i>Noldorin</i> (<b>Fal.N.</b>), or of <i>Sindarin</i> (<b>Fal.S.</b>), as the case may be.</li>
-					<li><b>Fe.</b>, or <b>Fean.</b> Feanorian: the eastern dialect of Noldorin in Exile.</li>
-					<li><b>Gon.</b> <i>Gondolinian</i> dialect of <i>Noldorin</i>.</li>
-					<li><b>Hith.</b> N. dialect of <i>Hithlum</i>.</li>
-				</ul>
-			</div>
-			<!-- Row -->
-			<ID>28.2</ID>
-			<div>
-				<ul>
-					<li><b>KE.</b> <i>Koreldarin</i>.</li>
-					<li><b>KN.</b> <i>Kornoldorin</i>.</li>
-					<li><b>L.</b> <i>Lindarin</i>.</li>
-					<li><b>N.</b> <i>Noldorin</i>: <b>EN</b> is <i>Etya-noldorin</i> or <i>Exilic</i>. <b>ON</b> is <i>Yáranoldorin</i> or <i>Old Noldorin</i>. <b>EEN</b> is the earliest form of <i>Exilic</i> in <i>Gondolin</i>.</li>
-					<li><b>Os.</b> is <i>Ossiriandish</i>.</li>
-					<li><b>Q.</b> is <i>Qenya</i>. <b>PQ</b> is <i>Parmaqesta</i>. <b>TQ</b> is <i>Tarqesta</i>.</li>
-					<li><b>T.</b> is <i>Telerin</i>. <b>OT</b> is <i>Old Telerin</i>.</li>
-				</ul>
-			</div>
-			<Same />
-			<Same />
-			<div>
-				<ul>
-					<li><b>KE.</b> <i>Koreldarin</i>.</li>
-					<li><b>KN.</b> <i>Kornoldorin</i>.</li>
-					<li><b>L.</b> <i>Lindarin</i>. <Add><b>OL</b> is Old Lindarin before development of classical PQ.</Add></li>
-					<li><b>N.</b> <i>Noldorin</i>: <b>EN</b> is <i>Etya-noldorin</i> or <i>Exilic</i>. <b>ON</b> is <i>Yáranoldorin</i> or <i>Old Noldorin</i>. <b>EEN</b> is the earliest form of <i>Exilic</i> in <i>Gondolin</i>.</li>
-					<li><b>Os.</b> is <i>Ossiriandish</i>.</li>
-					<li><b>Q.</b> is <i>Qenya</i>. <b>PQ</b> is <i>Parmaqesta</i>. <b>TQ</b> is <i>Tarqesta</i>. <Del><b>AQ</b> is archaic Quenya before the classical period.</Del></li>
-					<li><b>T.</b> is <i>Telerin</i>. <b>OT</b> is <i>Old Telerin</i>.</li>
-				</ul>
-			</div>
-			<div>
-				<ul>
-					<li><b>K.</b> or <b>KQ.</b> <i>Kalaquendian</i>: the language of the Elves of Valinor (insofar as it showed common features distinct from the <i>Alamanya Eldar</i>). For this <b>Val</b>. or <b>V</b>. is often used as in <b>VTel</b>.</li>
-					<li><b>N.</b> <i>Noldorin</i>. Where unspecified this usually refers to Exilic or <b>Ex.N.</b>, Exilic Noldorin. <b>AN.</b> Ancient Noldorin.</li>
-					<li><b>Os.</b> <i>Ossiriandrin</i>.</li>
-					<li><b>Q.</b> <i>Qenya</i>. Where it is necessary to distinguish: <b>PQ</b> denotes the <i>Parmaquesta</i> (or more archaic book-language), and <b>TQ</b> the <i>Tarquesta</i>. <b>AQ</b> refers to the Ancient Quenya (or earliest recorded form of Vanyarin). But in CQ <b>Q</b> stands for <i>Quenderin</i> and <b>CQ</b> refers to the primitive language of all the Elves or Quendi before their separation.</li>
-					<li><b>S.</b> <i>Sindarin</i>.</li>
-					<li><b>T.</b> <i>Telerin</i>. <b>AT</b>. <i>Ancient Telerin</i>.</li>
-				</ul>
-			</div>
-		</div>
-	</main>
+  <main class="p-4 overflow-x-auto">
+    <div class="flex flex-col gap-y-4">
+      <Row n="1">
+        <P m="1E">
+          <p>A. <i>Lambion Ontale</i> : Descent of Tongues.</p>
+        </P>
+        <P m="2E">
+          <p>A. <i>Lambion Ontale</i> ‘Descent of Tongues’.</p>
+        </P>
+      </Row>
+      <Row n="2" m="3">
+        <P m="1E">
+          <p>§1 Here is set forth the structure of the language of the <b>Qendi</b>, or <i>Elves</i>, and the manner of its change in the course of time in the diverse speeches of the <i>Qendelie</i> or Elf-race.</p>
+        </P>
+        <P m="2D">
+          <p>§1 Here is set forth the structure of the language of the <RepD><i>Qendi</i></RepD> or Elves, and the manner of its change in the course of time to the divers speeches of the <RepD><i>Qendelie</i></RepD> or Elf-race.</p>
+        </P>
+        <P m="2P">
+          <p>§1 Here is set forth the structure of the language of the <Rep><i>Quendi</i></Rep> or Elves, and the manner of its change in the course of time to the divers speeches of the <Rep><i>Quendelie</i></Rep> or Elf-race.</p>
+        </P>
+      </Row>
+      <Row n="3.1">
+        <P m="1E">
+          <p>Now this language the Elves derived in the beginning from the Valar, but they changed it even in the learning, and moreover modified and enriched it constantly at all times by their own invention.</p>
+        </P>
+        <P m="2E">
+          <p>[Now this language the Elves began to make in the beginning of their being and it is one with their being, since it was of their nature and the first of all their gifts to devise names and words.</p>
+        </P>
+      </Row>
+      <Row n="3.2" m="3">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="2D">
+          <p>And as they are incomplete and not themselves without their visible forms in this world, so their thought is incomplete and not itself without language.</p>
+        </P>
+        <P m="2I">
+          <p>And as they are incomplete and not themselves without their visible forms in this world, so their thought is incomplete and not itself without <Add>their</Add> language.</p>
+        </P>
+      </Row>
+      <Row n="3.3">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="2E">
+          <p>Whereas the Valar or Powers are in themselves without raiment, thought unattired, and their visible forms are but as a garment which they may put off or change.</p>
+        </P>
+      </Row>
+      <Row n="3.4">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="2E">
+          <p>Therefore they do not need at all times in their councils one with another to clothe their thought in words; though when they array themselves visibly, then they take to themselves tongues that are fitting to the raiment, and they speak, or seem to speak, to each of the races of the world in a fashion that each can comprehend: to the Dwarves in Dwarvish, to Men in Mannish, and the Elves in Elvish.</p>
+        </P>
+      </Row>
+      <Row n="3.5" m="3">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="2D">
+          <p>It is true indeed, as is told in the <i>Ainulindale</i>, that most often the Valar in <RepD>this world</RepD> abode in forms like to those of the Children of Ilúvatar, by whose love they were in the beginning drawn to the world.</p>
+        </P>
+        <P m="2I">
+          <p>It is true indeed, as is told in the <i>Ainulindale</i>, that most often the Valar in <Rep>the world of old</Rep> abode in forms like to those of the Children of Ilúvatar, by whose love they were in the beginning drawn to the world.</p>
+        </P>
+      </Row>
+      <Row n="3.6">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="2E">
+          <p>Wherefore many of the wise hold that in such forms, as it were of great kings and queens, they have also their own high speech, eldest of all tongues. Yet if that be so, the Elves have not heard it, not at the least within the days of their memory.</p>
+        </P>
+      </Row>
+      <Row n="3.7" m="4">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="2D">
+          <p>It may well be that when Orome first found the Qendelie, <Del>and</Del> they <Del>were but newly awakened to being, then their language was still in the making, so that from the beginning the Qendi</Del> caught, as it were, the tones of the Eldest Speech, and even some of its devices, to weave among their own.</p>
+        </P>
+        <P m="2I">
+          <p>It may well be that when Orome first found the <RepD>Qendelie</RepD>, they <Add>listened to him and</Add> caught, as it were, the tones of the Eldest Speech, and even some of its devices, to weave among their own; <Add>for they were eager and filled with the desire of new things in thought and speech, and they had not yet long laboured in the world.</Add></p>
+        </P>
+        <P m="2P">
+          <p>It may well be that when Orome first found the <Rep>Quendelie</Rep>, they listened to him and caught, as it were, the tones of the Eldest Speech, and even some of its devices, to weave among their own; for they were eager and filled with the desire of new things in thought and speech, and they had not yet long laboured in the world.</p>
+        </P>
+      </Row>
+      <Row n="3.8" m="3">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="2D">
+          <p>But the Quendi wrought not in the void, <RepD>but using</RepD> those things that were already in the world at their coming; and <RepD>yet what</RepD> they made, whence so ever derived, was their own and Elvish.]<sup>¶</sup></p>
+        </P>
+        <P m="2I">
+          <p>But <Add>indeed</Add> the Quendi wrought not in the void, <Rep>and used of necessity</Rep> those things that were already in the world at their coming; and <Rep>nonetheless that which</Rep> they made, whence so ever derived, was their own and Elvish.]<sup>¶</sup></p>
+        </P>
+      </Row>
+      <Row n="3.9">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="2E">
+          <p>¶ Quoth Rúmil. So Ælfwine notes. This passage seems an excerpt from another work.</p>
+        </P>
+      </Row>
+      <Row n="3.10">
+        <P m="1E">
+          <p>There are no records of <RepD>their</RepD> speech in <RepD>the early ages; for</RepD> writing did not begin until the <i>Noldor</i>, <Del>or Gnomes</Del>, devised letters in Valinor, in the days of <RepD>bliss</RepD> ere evil befell.</p>
+        </P>
+        <P m="2E">
+          <p><Add>In all that pertains to the beginnings our lore is unsure, for</Add> there are no records of <Rep>the</Rep> speech <Add>of the Qendi</Add> in the <Rep>primeval days, and</Rep> writing did not begin until the Noldor devised letters in Valinor, in the days of <Rep>Bliss</Rep> ere evil befell.</p>
+        </P>
+      </Row>
+      <Row n="3.11">
+        <P m="1E">
+          <p>The Valar write not, and they reveal to few the things which their minds record.</p>
+        </P>
+        <P m="2E">
+          <p>The Valar write not and forget not, but they reveal to few the things that they keep in memory.</p>
+        </P>
+      </Row>
+      <Row n="3.12" m="4">
+        <P m="1E">
+          <p>Therefore the tongues of the Elves that abode in Middle-earth and did not <RepD>go to Valinor are</RepD> little known, and <Del>not until they had been</Del> long sundered from their kindred in the West.</p>
+        </P>
+        <P m="1B">
+          <p>Therefore the tongues of the Elves that abode in Middle-earth and did not <Rep>follow Orome <RepD>were</RepD></Rep> little known <Add>to the Eldar</Add>, and long sundered from their kindred in the West <Rep>the speech of the <i>Avari</i> was unknown</Rep>.</p>
+        </P>
+        <P m="1B+">
+          <p><RepD>Therefore</RepD> the tongues of the Elves that <RepD>abode</RepD> in Middle-earth and did not follow Orome <Rep>are</Rep> little known to the Eldar, and <Rep>the earliest knowledge that survives comes only from later days when the <i>Avari</i> had</Rep> long <Rep>been</Rep> sundered from their kindred in the West.</p>
+        </P>
+        <P m="2E">
+          <p><Rep>So it is that</Rep> the tongues of the Elves that <Rep>remained</Rep> in Middle-earth and did not follow Orome <Rep>were</Rep> little known to the Eldar, and <Add>indeed</Add> the earliest knowledge <Add>of these matters</Add> that survives <Add>amongst us</Add> comes only from later <Rep>times</Rep> when the Avari had long been sundered from their kindred in the West.</p>
+        </P>
+      </Row>
+      <Row n="4.1" m="3">
+        <P m="1E">
+          <p>§2 The most ancient structure of the tongue common to all the <i>Qendi</i> is, therefore, guessed or deduced from a comparison one with another of the written forms of the languages of Valinor, and of such records of the tongues of the <RepD>Dark-elves</RepD> as we here in <i>Eressea</i> in these <RepD>latest</RepD> days <Del>have knowledge</Del>.</p>
+        </P>
+        <P m="1B">
+          <p>§2 The most ancient structure of the tongue common to all the <i>Qendi</i> is, therefore, <Add>not known <DelD>even</DelD> to the Elves, though some things may be</Add> guessed or deduced from a comparison one with another of the written forms of the languages of Valinor, and of such records of the tongues of the <Rep>Avari</Rep> as we here in <i>Eressea</i> <Add>have gathered</Add> in these <Rep>later</Rep> days.</p>
+        </P>
+        <P m="2E">
+          <p>§2 The most ancient structure of the tongue common to all the <Rep>Qendelie</Rep> is, therefore, not known to the Elves, though some things may be guessed or discovered by those who will compare one with another the written forms of the Eldarin languages of Valinor, together with such records of the Avari as we here in Eressea have set down in these later days.</p>
+        </P>
+      </Row>
+      <Row n="4.2">
+        <P m="1E">
+          <p>The languages most fully treated are:</p>
+        </P>
+        <P m="2E">
+          <p>The languages <Add>that are</Add> most fully treated are:</p>
+        </P>
+      </Row>
+      <Row n="4.3" m="4">
+        <P m="1E">
+          <p>firstly the <i>Qenya</i>, <Add>[</Add>or <i>Elf-latin</i><Add>,]†</Add> derived mainly from the ancient speech of the <i>Lindar</i> as it was in the days of bliss, for this tongue is used still in speech and writing by all <RepD>Elves</RepD>;</p>
+        </P>
+        <P m="1B">
+          <p>firstly the <i>Qenya</i>, [or <i>Elf-latin</i>,]† derived mainly from the ancient speech of the <i>Lindar</i> as it was in the days of bliss, for this tongue is used still in speech and writing by all <Rep>the Eldar</Rep>;</p>
+        </P>
+        <P m="2D">
+          <p>firstly the <RepD><i>Qenya</i></RepD> [or Elf-latin†], <RepD>devised mainly from</RepD> the ancient speech of the <RepD>Lindar</RepD> as it was in the days of Bliss; for this tongue is used still both in writing and in speech by all the Eldar;</p>
+        </P>
+        <P m="2P">
+          <p>firstly the <Rep><i>Quenya</i></Rep> [or Elf-latin†], <Rep>which is indeed but</Rep> the ancient speech of the <Rep>Vanyar and Noldor</Rep> as it was in the days of Bliss; for this tongue is used still both in writing and in speech by all the Eldar <Add>of Valinor</Add>;</p>
+        </P>
+      </Row>
+      <Row n="4.4">
+        <P m="1E">
+          <p><Add>†[quoth Ælfwine]</Add></p>
+        </P>
+        <P m="2D">
+          <p>† Quoth Ælfwine</p>
+        </P>
+      </Row>
+      <Row n="4.5" m="4">
+        <P m="1E">
+          <p>and secondly the <i>Noldorin</i> or Gnomish in its long and changeful history, which is fully known.</p>
+        </P>
+        <P m="1B">
+          <p>and secondly the <i>Noldorin</i> or Gnomish in its long and changeful history, which is fully known <Add>to us</Add>.</p>
+        </P>
+        <P m="2D">
+          <p>and secondly the <RepD><i>Noldorin</i></RepD> or <RepD>Gnomish</RepD> in its long and changeful history, which is <RepD>fully</RepD> known to us.</p>
+        </P>
+        <P m="2P">
+          <p>and secondly the <Rep><i>Sindarin</i></Rep> or <Rep>Grey-elven</Rep> in its long and changeful history, <Add>of</Add> which <Rep>a little</Rep> is known to us.</p>
+        </P>
+      </Row>
+      <Row n="4.6" m="5">
+        <P m="1E">
+          <p>Something is also said concerning the <i>Telerin</i> languages, both those of Valinor and of Beleriand. What is known of the <i>Danian</i> tongues, especially that of <i>Ossiriand</i>, is also told.</p>
+        </P>
+        <P m="2D">
+          <p>Something also is said of the <i>Telerin</i> <RepD>languages</RepD>, <Del>both those</Del> of Valinor <Del>and of Beleriand</Del>. What is known of the <i>Danian</i> tongues of old, especially that of Ossiriand, is also told.</p>
+        </P>
+        <P m="2D+">
+          <p>Something also is said of the <i>Telerin</i> <Rep>language</Rep> of Valinor. What is known of the <i><del>Dannian</del> Danian</i> tongues of old, especially that of Ossiriand, is also told.</p>
+        </P>
+        <P m="2P">
+          <p class="border border-2 border-slate-500 p-2 rounded-md">Secondly much is said of the Telerin languages, most of all of the Sindarin.</p>
+        </P>
+        <P m="2E">
+          <p>Something also is said of the <i>Telerin</i> language of Valinor. What is known of the <i>Danian</i> tongues of old, especially that of Ossiriand, is also told.</p>
+        </P>
+      </Row>
+      <Row n="4.7" m="3">
+        <P m="1E">
+          <p>Little is said of the diverse tongues in use among the scattered elves that refused to follow <i>Orome</i>, the <i>Avari</i> of old, who now are <del>fading</del> hidden in remote places of Middle-earth, or else have vanished from the world.</p>
+        </P>
+        <P m="2D">
+          <p>Little is said of the <i>Avarin</i> tongues, many and diverse, that were used of old or still are used in Middle-earth.</p>
+        </P>
+        <P m="2D+">
+          <p>Little is said of the <i>Avarin</i> tongues, many and diverse, that were used of old in Middle-earth<del>; and linger still in remote places, though the Avari</del>. There they linger still in remote places where the Avari hide themselves from Men.</p>
+        </P>
+      </Row>
+      <Row n="5">
+        <P m="1E">
+          <p><i>The Division of Tongues.</i></p>
+        </P>
+        <P m="2E">
+          <p><i>The Division of Tongues</i></p>
+        </P>
+      </Row>
+      <Row n="6.1">
+        <P m="1E">
+          <p>§3 The whole Elf-race is named the <b>Qendi</b>.</p>
+        </P>
+        <P m="2E">
+          <p>§3 The whole Elf-race is named the <b>Quendi</b>.<sup>¶</sup></p>
+        </P>
+      </Row>
+      <Row n="6.2" m="3">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="1B">
+          <p>This name they gave to themselves, and it means ‘Those that <del>Speak</del> <del>Awoke</del> Speak’ for at first the Elves knew no other living things that <RepD>could speak</RepD>, and it was long ere they met either the Dwarves of Aule or the Orcs of Melkor; and the days of Men were yet far distant.</p>
+        </P>
+        <P m="2E">
+          <p>¶ This name they gave to themselves, and it means “Those that Speak”. For at first the Elves knew no other living things that <Rep>made or used words</Rep>, and it was long ere they met either the Dwarves of Aule, or the Orcs of Melkor; and the days of Men were yet far distant.</p>
+        </P>
+      </Row>
+      <Row n="6.3" m="4">
+        <P m="1E">
+          <p>All their tongues are therefore <i>Qenderin</i>, or in English <RepD><i>Cwendish</i></RepD>, or <i>Quendian</i>.</p>
+        </P>
+        <P m="1B">
+          <p>All their tongues are therefore <i>Qenderin</i>, or in English <Rep><i>Cwendisc</i></Rep>, or <i>Quendian</i>.</p>
+        </P>
+        <P m="2D">
+          <p>All their tongues are called therefore <RepD><i>Qenderin</i></RepD>, or in English <i>Quendian</i> [<i>Cwendisc</i>: Ælfwine].</p>
+        </P>
+        <P m="2P">
+          <p>All their tongues are called therefore <Rep><i>Quenderin</i></Rep>, or in English <i>Quendian</i> [<i>Cwendisc</i>: Ælfwine].</p>
+        </P>
+      </Row>
+      <Row n="7">
+        <P m="1E">
+          <p>The <i>first</i> Division was into <b>Eldar</b> and <b>Avari</b>. The <i>Eldar</i> left the places of their awakening and followed <i>Orome</i> westward. The <i>Avari</i> refused to follow him and remained behind. <RepD>Their languages were</RepD> thus very early divided into the branches <i>Eldarin</i>, and <i>Avarin</i>.</p>
+        </P>
+        <P m="2E">
+          <p>The <i>first</i> division was into <b>Eldar</b> and <b>Avări</b>. The <i>Eldar</i> left the places of their awakening and followed Orome westward <Add>under the starlight: hence comes their name, the people of the Stars</Add>. The <i>Avari</i> refused to follow him and remained behind: <Add>hence they are so named, ‘those that refuse’</Add>. <Rep>The language of the Quendelie was</Rep> thus very early sundered into the branches <i>Eldarin</i> and <i>Avarin</i>.</p>
+        </P>
+      </Row>
+      <Row n="8.1" m="4">
+        <P m="1E">
+          <p>§4 The <i>second</i> Division befell when the followers of <RepD><i>Nano</i></RepD> (or <i>Dan</i>) forsook the main host of the <i>Noldor</i> upon the march, and wandered in Middle-earth.</p>
+        </P>
+        <P m="1P">
+          <p>§4 The <i>second</i> Division befell when the followers of <Rep><i>Nanno</i></Rep> (or <i>Dan</i>) forsook the main host of the <i>Noldor</i> upon the march, and wandered in Middle-earth.</p>
+        </P>
+        <P m="2D">
+          <p>§4 The <i>second</i> division befell when the followers of that lord that is named <i>Nanno</i> (or <Del>among the Noldor</Del> <Rep><i>Dann</i></Rep>), <Del>signifying the turner-back,</Del> forsook the <Del>main</De> host of the <RepD>Noldor</RepD> upon the long march and wandered in Middle-earth.</p>
+        </P>
+        <P m="2R">
+          <p>§4 The <i>second</i> division befell when the followers of that lord that is named <Rep><i>Nano</i></Rep> or <Rep><i>Dân</i></Rep> forsook the hosts of the <Rep>Teleri</Rep> upon the long march and wandered in Middle-earth.</p>
+        </P>
+      </Row>
+      <Row n="8.2" m="4">
+        <P m="1E">
+          <p>These are the <RepD><b>Pereldar</b></RepD>, <Del>or ‘Half-eldians’,</Del> or the Danian Elves,† and their tongues are distinct from the rest of the <i>Eldarin</i> tongues, and yet more akin to them than to the <i>Avarin</i>.</p>
+        </P>
+        <P m="1B">
+          <p>These are the <Rep><b>Naneldar</b></Rep>, or Danian Elves,† and their tongues are distinct from <Del>the rest of</Del> the <i>Eldarin</i> tongues, and yet more akin to them than to the <i>Avarin</i>.</p>
+        </P>
+        <P m="2D">
+          <p>These are the <Rep><b>Nanneldar</b></Rep>, or Dannian Elves,<sup>¶¶</sup> and their tongues <Rep>were</Rep> distinct from the <Add>other</Add> Eldarin tongues and yet more closely akin to them than to <Add>any tongue of</Add> the Avari.</p>
+        </P>
+        <P m="2R">
+          <p>These are the <Rep><b><del>Nanniondi</del> Nandor</b></Rep>, or <Rep>Danian</Rep> Elves,<sup>¶¶</sup> and their tongues were distinct from the other Eldarin tongues and yet more closely akin to them than to any tongue of the Avari.</p>
+        </P>
+      </Row>
+      <Row n="8.3">
+        <P m="1E">
+          <p>† Who were also in Ossirian called the <i>Laiquendi</i> or Green Elves.</p>
+        </P>
+        <P m="2E">
+          <p>¶¶ Who were also in Ossiriand called the <Rep><i>Laiqendi</i></Rep> or Green Elves.</p>
+        </P>
+      </Row>
+      <Row n="9.1">
+        <P m="1E">
+          <p>§5 The <i>third</i> Division befell when the <b>Teleri</b>, coming late upon the march, remained for an age in <i>Beleriand</i>, after the <i>Lindar</i> and <i>Noldor</i> had gone to <i>Valinor</i>.</p>
+        </P>
+        <P m="2E">
+          <p>§5 The <i>third</i> division befell when the <b>Teleri</b>, coming <Rep>latest</Rep> upon the march remained, for <Rep>long years</Rep> in Beleriand after the <Rep><b>Vanyar</b></Rep> and <Add>the</Add> <b>Noldor</b> had <Rep>departed</Rep> to <Rep>Aman</Rep>.</p>
+        </P>
+      </Row>
+      <Row n="9.2">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="2E">
+          <p>This name, <i>Teleri</i>, they gave to themselves, for it signifies in their own tongue the Last-comers or the Enders. But they were called also the <i>Lindar</i>, because all this folk, of whatsoever branch, had the fairest voices, and they rejoiced most of all in song. The <i>Vanyar</i> were so named since they are the most blissful and beautiful of all the Elves; whereas <i>Noldor</i> signifies “those that have knowledge”, for the Noldor were lore-masters.</p>
+        </P>
+      </Row>
+      <Row n="10.1" m="2">
+        <P m="1E">
+          <p>§6 The <i>fourth</i> Division befell through the sundering of the <i>Teleri</i>.</p>
+        </P>
+        <P m="2I">
+          <p>§6 The <i>fourth</i> division befell through the <Add>second</Add> sundering of the <i>Teleri</i>.</p>
+        </P>
+      </Row>
+      <Row n="10.2" m="3">
+        <P m="1E">
+          <p>Most departed and came at last to <i>Valinor</i>, and hence, though somewhat estranged in the beginning, their language renewed its kinship with the speech of <i>Lindar</i> and <i>Noldor</i>, and especially with the latter.</p>
+        </P>
+        <P m="1B">
+          <p>Most <Add>of this people</Add> departed and came at last to <i>Valinor</i>, <Del>and</Del> hence, though somewhat estranged in the beginning, their language renewed its kinship with the speech of <i>Lindar</i> and <i>Noldor</i>, and especially with the latter.</p>
+        </P>
+        <P m="2E">
+          <p>Most of this <Rep>folk</Rep> <Add>in the end</Add> departed <Add>from Middle-earth</Add> and came at last to <Rep>Aman</Rep>. Hence, though somewhat estranged in the <Rep>earlier days</Rep>, their language renewed its kinship <Add>and likeness</Add> <Rep>to</Rep> the speech of <Add>the</Add> <Rep>Vanyar</Rep> and Noldor.</p>
+        </P>
+      </Row>
+      <Row n="10.3">
+        <P m="1E">
+          <p>But many remained in <i>Beleriand</i>.</p>
+        </P>
+        <P m="2E">
+          <p>But many of the Teleri remained behind in Beleriand.</p>
+        </P>
+      </Row>
+      <Row n="10.4" m="5">
+        <P m="1E">
+          <p>These were the <RepD><b>Lembi</b></RepD>, or those that were left behind. Their language became wholly estranged from that of their kin, and is called <i>Lemberin</i>.</p>
+        </P>
+        <P m="1B">
+          <p>These were the <Rep><b>Lemberi</b></Rep>, or those that were left behind. Their language became wholly estranged from that of their kin, and is called <RepD><i>Lemberin</i></RepD>.</p>
+        </P>
+        <P m="1B+">
+          <p>These were the <Rep><b>Lembar</b></Rep>, or those that were left behind. Their language became <Del>wholly</Del> estranged from that of their kin, and is called <Rep><i>Lembarin</i></Rep>.</p>
+        </P>
+        <P m="2D">
+          <p>These were the <Rep><b>Sindar</b></Rep> or <Rep>Grey-elves</Rep>. Their language became estranged from that of their kin <Add>that sailed over sea</Add>, and <Add>it</Add> is called <Rep><i>Sindarin</i></Rep>, <Add>and that tongue, as it was spoken in <RepD>Doriath is not yet forgotten</RepD></Add>.</p>
+        </P>
+        <P m="2P">
+          <p>These were the <b>Sindar</b> or Grey-elves. Their language became estranged from that of their kin that sailed over sea, and it is called <i>Sindarin</i>, and that tongue, as it was spoken in <Rep>Beleriand is still the daily speech of Eressea</Rep>.</p>
+        </P>
+      </Row>
+      <Row n="11" m="3">
+        <P m="1E">
+          <p>§7 The <i>fifth</i> Division befell in the course of ages, whereby the speech of the <b>Noldor</b> of <i>Túna</i> became a different language to that of the <b>Lindar</b>. These differences began anciently, even upon the march, but are revealed plainly to us first in records after the devising of letters in the days of <i>Rúmil</i> and <i>Fëanor</i>.</p>
+        </P>
+        <P m="2D">
+          <p class="border-2 border-red-800 rounded-md p-1">§7 The <i>fifth</i> division befell in the course of the long years of Aman, whereby the speech of the <i>Noldor</i> of <b>Túna</b> became a different language from that of the <i>Vanyar</i>. The divergence of their tongues began, doubtless, anciently, even upon the westward march, but was increased when the Vanyar forsook Túna and went to dwell in Valinor. The differences are first plainly revealed to us after the devising of letters, when the speech ofthe Elves was written down in the days of <i>Rúmil</i> and of <i>Fëanor</i>.</p>
+        </P>
+        <P m="2P"><p class="text-slate-500">[none]</p></P>
+      </Row>
+      <Row n="12" m="3">
+        <P m="1E">
+          <p>§8 The <i>sixth</i> Division befell through the Exile of the <i>Noldor</i>, who returned to Middle-earth and remained for 500 years in <i>Beleriand</i>. During that time their language became greatly changed, becoming unlike the <i>Noldorin</i> of old or of those <i>Noldor</i> that remained in <i>Valinor</i>, and in many ways more like the <i>Lemberin</i> and <i>Danian</i> tongues. The few <i>Noldor</i> that were not exiled, in the end lost their own speech and became merged with the <i>Lindar</i>.</p>
+        </P>
+        <P m="2D">
+          <p>§8 The <i>sixth</i> division befell through the Exile of the Noldor who returned to Middle-earth and <Rep>dwelt for well-nigh six hundred</Rep> years in Beleriand. During that time their language became greatly changed, and grew to resemble the tongues of Beleriand, Sindarin and Nandorin. Those few of the Noldor that remained in Aman became merged with the Vanyar and did not retain their own speech.</p>
+        </P>
+        <P m="2P">
+          <p>§8 The <Rep><i>fifth</i></Rep> division befell through the Exile of the Noldor who returned to Middle-earth and dwelt for well-nigh six hundred years in Beleriand. During that time their language became greatly changed, and grew to resemble the tongues of Beleriand, Sindarin and Nandorin. Those few of the Noldor that remained in Aman became merged with the Vanyar and did not retain their own speech.</p>
+        </P>
+      </Row>
+      <Row n="13" m="2">
+        <P m="1E">
+          <p class="border-2 border-red-800 rounded-md p-1">§9 <b>Qenderin</b> or ‘Quendian’ is thus the name of all Elf-tongues.</p>
+        </P>
+        <P m="2E">
+          <p>§9 <b>Quenderin</b> or Quendian is thus the name of all the Elf-tongues.</p>
+        </P>
+      </Row>
+      <Row n="14" m="3">
+        <P m="1E">
+          <p class="border-2 border-red-800 rounded-md p-1"><b>Eldarin</b> is the name of the tongues of the <i>Lindar, Noldor, Teleri</i> (of <i>Valinor</i> and <i>Beleriand</i>) and <RepD><i>Pereldar</i></RepD>.</p>
+        </P>
+        <P m="1B">
+          <p class="border-2 border-red-800 rounded-md p-1"><b>Eldarin</b> is the name of the tongues of the <i>Lindar, Noldor, Teleri</i> (of <i>Valinor</i> and <i>Beleriand</i>) and <Rep><i>Naneldar</i></Rep>.</p>
+        </P>
+        <P m="2E">
+          <p>Whereas <b>Eldarin</b> is the common name of the tongues of the <i>Vanyar</i>, the <i>Noldor</i>, and the <i>Teleri</i> (including the <i>Sindar</i> and the <i>Nandor</i>).</p>
+        </P>
+      </Row>
+      <Row n="15" m="2">
+        <P m="1E">
+          <p class="border-2 border-red-800 rounded-md p-1"><b>Avarin</b> is the name of the tongues of the <i>Avari</i>.</p>
+        </P>
+        <P m="2E">
+          <p><b>Avarin</b> is the name of the tongues of the Avari, concerning which the Eldar know little, and nothing before the Third Age.</p>
+        </P>
+      </Row>
+      <Row n="16.1" m="3">
+        <P m="1E">
+          <p class="border-2 border-red-800 rounded-md p-1"><b>Koreldarin</b> is the name of the tongues of those who left Middle-earth, and came to <i>Kór</i>, the hill of the Elves in <i>Valinor</i>, namely the tongues of <i>Lindar</i> and <i>Noldor</i>. Sometimes this name includes <i>Telerin</i> of Valinor; though the right name that is given to these three, <i>Lindarin, Noldorin, Telerin</i>, is <RepD><i>Valinórea</i> or ‘Valinorian’</RepD>.</p>
+        </P>
+        <P m="1B">
+          <p class="border-2 border-red-800 rounded-md p-1"><b>Koreldarin</b> is the name of the tongues of those who left Middle-earth, and came to <i>Kór</i>, the hill of the Elves in <i>Valinor</i>, namely the tongues of <i>Lindar</i> and <i>Noldor</i>. Sometimes this name includes <i>Telerin</i> of Valinor; though the right name that is given to these three, <i>Lindarin, Noldorin, Telerin</i>, is <Rep><i>Kalaquenderin</i>, the languages of the Elves of Light</Rep>. <Add>Whereas all those Elves that remained in Middle-earth whether Eldar or Avari are <i>Moriquendi</i> or Dark Elves.</Add></p>
+        </P>
+        <P m="2E">
+          <p><b>Kalaquenderin</b> is the name of the tongues of all those Elves who left Middle-earth and crossed the Sea and came to the shores of Aman. For those Elves are called the <i>Kalaquendi</i>, the Elves of the Light, whereas all others are named <i>Moriquendi</i>, Elves of the Dark.</p>
+        </P>
+      </Row>
+      <Row n="16.2" m="2">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="2E">
+          <p>¶ But <i>Moriquenderin</i> is not used with regard to languages, since the tongues of the Dark Elves were many and divided.</p>
+        </P>
+      </Row>
+      <Row n="17" m="2">
+        <P m="1E">
+          <p class="border-2 border-red-800 rounded-md p-1">§10 The separate tongues still used, or still in some part recorded are named:</p>
+        </P>
+        <P m="2E">
+          <p>§10 The separate Elf-tongues that are still spoken or written, or are still in some part recorded and known to the lore-masters, are thus named as follows.</p>
+        </P>
+      </Row>
+      <Row n="18.1" m="4">
+        <P m="1E">
+          <p>1. <b>Qenya</b> <Del>or more anciently <i>Qendya</i></Del>. This <RepD>is</RepD> the language of the <i>Lindar</i> as it was anciently in <i>Valinor</i> in the days of Bliss. It is given this name <Del>for three reasons: because</Del> <Move>it is the common language of all the <i>Qendi</i> when they converse with the elves of other speech;</Move> <Del>because the name</Del> <i>Lindarin</i> is now used for that changed form of their own ancient language <Del>(<i>Qendya</i>)</Del> which the <i>Lindar</i> speak among themselves in <RepD>these</RepD> later days;</p>
+        </P>
+        <P m="1B">
+          <p class="border-2 border-red-800 rounded-md p-1">1. <b>Qenya</b>. This <Rep>was in origin</Rep> the language of the <i>Lindar</i> as it was anciently <Add>spoken and written</Add> in <i>Valinor</i> in the days of Bliss. It is given this name <Add>since</Add> <i>Lindarin</i> is now used for that changed form of their own ancient language which the <i>Lindar</i> <Add>spoke and</Add> speak among themselves in <Rep>the</Rep> later days.</p>
+        </P>
+        <P m="1B+">
+          <p class="border-2 p-1 border-green-500 rounded-md"><del>It is in o</del> This name meant in the beginning simple “language” (see above p. 3), or in contrast to other speeches that the Quendi met later “Elf language”. <del>The name was retained because <i>Lindarin</i></del> But the language now called <i>Qenya</i>, or <i>Tarqenya</i> the ‘High Speech’, was in fact in origin derived from the speech of the eldest Elf-kindred, the <i>Lindar</i>, as that was written down in Valinor in the days of Bliss. The name <i>Qenya</i> is nonetheless retained to this day.</p>
+        </P>
+        <P m="2E">
+          <p>1. <b>Quenya</b>. This name meant in the beginning simply “language” (see above p. 3), or in contrast to other speeches that the Quendi met later in the world, “elf-language”. But the tongue that is now called <i>Quenya</i>, or <i>Tarquenya</i>, the High Speech, was in fact in origin the speech of the eldest Elf-kindred, the <i>Vanyar</i>, as that was written down in Aman in the Days of Bliss. The name <i>Quenya</i> is nonetheless retained to this day, since <i>Vanyarin</i> is used for that changed form of their own ancient speech which the Vanyar use among themselves in these later days.</p>
+        </P>
+      </Row>
+      <Row n="18.2" m="3">
+        <P m="1E">
+          <p class="text-slate-500"><span>[<i>in 18.1</i>]</span> it is the common language of all the <i>Qendi</i> when they converse with the elves of other speech;</p>
+        </P>
+        <P m="1B">
+          <p class="border-2 border-red-800 rounded-md p-1"><Add>Also the <i>Qenya</i> has for ages been used as a common tongue among the Eldar whose native <del>speech is sundered</del> speeches are diverse, and this tongue is no longer felt to belong to any one kindred more than to another.</Add></p>
+        </P>
+        <P m="2E">
+          <p>Also the <i>Quenya</i> has for ages been used as a common tongue among all the Eldar, whose native speeches have become diverse, and this tongue is no longer felt to belong to any one kindred more than to another.</p>
+        </P>
+      </Row>
+      <Row n="18.3" m="2">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="2E">
+          <p>In the early days the language of the <i>Vanyar</i> became the language of nobler use among all the Eldar, because of the primacy of the <i>Vanyar</i>, and of their king.</p>
+        </P>
+      </Row>
+      <Row n="18.4" m="3">
+        <P m="1E">
+          <p class="border-2 border-red-800 rounded-md p-1"><Del>and because</Del> the <i>Valar</i> use <RepD><i>Qenya</i> always in conversing with</RepD> any of the <RepD>elf-race</RepD>, and they call <RepD>therefore this tongue so, meaning simply ‘Elvish’</RepD>.</p>
+        </P>
+        <P m="1B">
+          <p class="border-2 border-red-800 rounded-md p-1">The Valar <Add>also</Add> use <Rep>this tongue if they will speak to</Rep> any of the <Rep>Eldar</Rep>, and they <Add>too</Add> call <Rep>it Qenya</Rep> <del>meaning</del> <Rep>or Elf language</Rep>.</p>
+        </P>
+        <P m="2E">
+          <p>Also because the Vanyar were closest in friendship with the Valar, and the Valar used their tongue, Quenya, when they would speak with any of the Eldar;</p>
+        </P>
+      </Row>
+      <Row n="18.5" m="3">
+        <P m="1E">
+          <p class="border-2 border-red-800 rounded-md p-1">Their own tongue the <RepD>gods</RepD> do not use save among themselves, and of their <RepD>own</RepD> tongue, <i>Valarin</i>, as it was and is the Qendi have now little knowledge.</p>
+        </P>
+        <P m="1B">
+          <p class="border-2 border-red-800 rounded-md p-1">Their own tongue the <Rep>Valar</Rep> do not use save among themselves, and of their <Rep>primeval</Rep> tongue, <i>Valarin</i>, as it was and is the Qendi have now little knowledge.</p>
+        </P>
+        <P m="2E">
+          <p>for their own tongue the Valar do not use save among themselves, and of their primeval speech, the <i>Valarin</i>, as it was and is even the loremasters of the Eldar know nothing.</p>
+        </P>
+      </Row>
+      <Row n="18.6" m="2">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="2E">
+          <p>Moreover, the Vanyar were the fairest of all the Quendelie, and their tongue was the richest and most beautiful, although it was in many points more changed from the common tongue of old than was either ancient Noldorin or Telerin.</p>
+        </P>
+      </Row>
+      <Row n="19.1" m="2">
+        <P m="1E">
+          <p class="border-2 border-red-800 rounded-md p-1"><i>Qenya</i><Add>†</Add> is in its written form also called <b>Parmaqesta</b> or ‘book-language’.</p>
+        </P>
+        <P m="2E">
+          <p>§11 <i>Quenya</i> is in its written form also called <b>Parmaquesta</b>, or “book-language”.</p>
+        </P>
+      </Row>
+      <Row n="19.2" m="3">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="1B">
+          <p class="border-2 border-dashed border-red-800 rounded-md p-1">† This is derived direct from the stem <i>kwen-</i> from which the name <i>Qendi</i> (<i>kwenedī</i>) is another derivative. It thus means in origin simply ‘language’ or ‘elf-language’.</p>
+        </P>
+        <P m="2E"><p class="text-slate-500">[none]</p></P>
+      </Row>
+      <Row n="19.3" m="2">
+        <P m="1E">
+          <p class="border-2 border-red-800 rounded-md p-1">This <Add>[</Add>is the <i>Elf-latin</i>; and<Add>]†</Add> is retained in spelling and grammar even as it was of old.</p>
+        </P>
+        <P m="2E">
+          <p>This is [†the Elf-latin and is] retained in spelling and grammar even as it was of old.</p>
+        </P>
+      </Row>
+      <Row n="19.4" m="2">
+        <P m="1E">
+          <p class="border-2 border-red-800 rounded-md p-1">It is used in <i>Valinor</i> and <i>Eressea</i> for many kinds of writing: histories, legends, hymns, poems, and other lore.</p>
+        </P>
+        <P m="2E">
+          <p>It is used still in <i>Valinor</i> and in <i>Eressea</i> for many kinds of writing: histories, legends, hymns, poems, and other lore.</p>
+        </P>
+      </Row>
+      <Row n="19.5" m="2">
+        <P m="1E">
+          <p class="border-2 border-dashed border-red-800 rounded-md p-1"><Add>†[quoth Ælfwine]</Add></p>
+        </P>
+        <P m="2E">
+          <p>† quoth Ælfwine.</p>
+        </P>
+      </Row>
+      <Row n="19.6" m="3">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="1P">
+          <p>Qenya is also called <i>Tarquesta</i> or the High Speech. In its classical or <del>unaltered</del> written form it is called <i>Parmaquesta</i>, and in older stages of which some knowledge is possessed by the loremasters of the Eldar it is called <i>Old Lindarin</i>.</p>
+        </P>
+        <P m="2E"><p class="text-slate-500">[none]</p></P>
+      </Row>
+      <Row n="19.7" m="2">
+        <P m="1E">
+          <p><i>Qenya</i> when spoken is called also <b>Tarqesta</b>, that is ‘high language’.</p>
+        </P>
+        <P m="2E">
+          <p>When it is spoken, Quenya is called also <b>Tarquesta</b>, or “high language”.</p>
+        </P>
+      </Row>
+      <Row n="19.8" m="3">
+        <P m="1E">
+          <p>In pronunciation it is in <RepD>a few</RepD> points changed <Del>from the old manner (as still revealed by the written spelling)</Del>, and it admits words that were not in <i>Qenya</i> anciently, being new-found or borrowed from other tongues.</p>
+        </P>
+        <P m="1B">
+          <p>In pronunciation <Add>and in grammar</Add> it is in <Rep>some</Rep> points changed, and it admits words that were not in <i>Qenya</i> anciently, being new-found or borrowed from other tongues.</p>
+        </P>
+        <P m="2E">
+          <p>In pronunciation and in grammar this spoken form is in some points changed from the manner of the older and higher <i>Parmaquesta</i> (as is revealed by the ancient spelling), and it admits words that were not in Quenya anciently, being new-found or borrowed from other tongues.</p>
+        </P>
+      </Row>
+      <Row n="19.9" m="3">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="1B">
+          <p class="border-2 border-red-800 rounded-md p-1">This form of language represents a somewhat later stage than the fixed and written Parmaquesta, and shows some of the features of the changes of the Lindarin speech towards its later form. But by constant reference to the written PQ it is <del>prevented</del> preserved from further change.</p>
+        </P>
+        <P m="2E"><p class="text-slate-500">[none]</p></P>
+      </Row>
+      <Row n="19.10" m="3">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="1B">
+          <p><del>Since after the changes of the Eldarin tongues and the Lindarin among them, the written signs of <i>Parmaquesta</i> were interpreted</del> It thus shows some variations in usage among the three kindreds of the Eldalie.</p>
+        </P>
+        <P m="2E">
+          <p>Owing to the influence of the native speeches of the different Elf-kindreds it shows some variations in pronunciation;</p>
+        </P>
+      </Row>
+      <Row n="19.11" m="3">
+        <P m="1E">
+          <p><RepD>Its purest form is that used by</RepD> the <i>Lindar</i> of the household of <i>Ingwe</i>.</p>
+        </P>
+        <P m="1B">
+          <p><Rep>The usage of</Rep> the <i>Lindar</i><Add>, especially those</Add> of the household of <i>Ingwe</i><Rep>, is regarded as the best, or most correct</Rep>.</p>
+        </P>
+        <P m="2E">
+          <p>but the usage of the <i>Vanyar</i>, especially those of the household of <i>Iñgwe</i>, is regarded as the best.</p>
+        </P>
+      </Row>
+      <Row n="19.12" m="3">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="1B">
+          <p>But in fact the Noldor, and especially the loremasters among them (for the Noldor have no rivals in such matters), use forms more archaic and nearer to the ancient PQ. This is <Unc>notably</Unc> so in the matter of pronunciation, since the usage of the Lindarin shows the effect of the changes <Unc>in their common</Unc> speech in later days. On this point see <Unc>below</Unc>.</p>
+        </P>
+        <P m="2E">
+          <p>Yet in fact the <i>Noldor</i>, and especially the loremasters among them (for the <i>Noldor</i> have no rivals in learning) use both sounds and forms that are more archaic and nearer to the written <i>Parmaquesta</i>. This is true especially in the matter of pronunciation, since the usage of the Vanyar shows the effect of the changes in their daily speech of later days. All these matters are treated more fully below.</p>
+        </P>
+      </Row>
+      <Row n="20" m="2">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="2E">
+          <p>The <i>Parmaquesta</i> belongs to VY. 2500 at the earliest, and is contemporary with the ancient <i>Noldorin</i>, from which it is already widely different.</p>
+        </P>
+      </Row>
+      <Row n="21.1" m="2">
+        <P m="1E">
+          <p>2. <b>Lindarin</b>: the daily speech of the <i>Lindar</i>, as it now is.</p>
+        </P>
+        <P m="2E">
+          <p>§ 12 2. <b>Vanyarin</b>.This name is given to all forms of the language of this kindred, after the ancient speech (Quenya, enshrined in the <i>Parmaquesta</i>) had ceased to be used as a daily language.</p>
+        </P>
+      </Row>
+      <Row n="21.2" m="2">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="2E">
+          <p>The earliest records of the speech of the Vanyar, preserved partly in some ancient traditional lore, partly in a few ancient inscriptions and writings in the alphabet of Rumil (belonging to a period about VY. 2200 or a little later), begin before the period of Parmaquesta.</p>
+        </P>
+      </Row>
+      <Row n="21.3" m="2">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="2E">
+          <p>The language of these ancient fragments is sometimes called Ancient Vanyarin, but since it is only an archaic form of Quenya, it is better to call it Ancient Quenya, and to reserve Vanyarin for forms later than Parmaquesta.</p>
+        </P>
+      </Row>
+      <Row n="21.4" m="2">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="2E">
+          <p>This is also more fitting, because at that ancient date the tongues of the Vanyar and Noldor had as yet very little diverged.</p>
+        </P>
+      </Row>
+      <Row n="22.1" m="2">
+        <P m="1E">
+          <p>3. <b>Telerin</b>: the speech of the <i>Teleri</i> of <i>Valinor</i>.</p>
+        </P>
+        <P m="2E">
+          <p class="border-2 border-amber-500 rounded-md p-1">§14. 4. <b>Telerin</b>. This name is often given to the tongues of any Elf-people that are of Telerian origin. But the name is best reserved for the language of the <i>Teleri</i> that came at last to <i>Valinor</i>.</p>
+        </P>
+      </Row>
+      <Row n="22.2" m="2">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="2E">
+          <p class="border-2 border-amber-500 rounded-md p-1">For though, during their sojourn on the west shores, their language became somewhat sundered from that of the <i>Vanyar</i> and <i>Noldor</i> who had preceded them (and of that severance some marks ever remained), nonetheless in Valinor, their speech became more like to <i>Kalaquenderin</i> and utterly unlike that of their kinsfolk, the <i>Sindar</i>, who remained behind.</p>
+        </P>
+      </Row>
+      <Row n="22.3" m="2">
+        <P m="1E">
+          <p><b>Yára-telerin</b> is ‘Old Telerin’ of the days of Bliss, of which the records are scanty.</p>
+        </P>
+        <P m="2E">
+          <p class="border-2 border-amber-500 rounded-md p-1"><i>Ancient Telerin</i> is the name of the earliest known forms of this speech; but the records are scanty. The Teleri made countless songs of great beauty, of which some descending from the far past are held in memory; but they used letters seldom.</p>
+        </P>
+      </Row>
+      <Row n="23.1" m="2">
+        <P m="1E">
+          <p>4. <b>Noldorin</b>: the speech of the <i>Noldor</i>, or Gnomes, since its first records in Túna until now when it survives still in <i>Tol Eressea</i>.</p>
+        </P>
+        <P m="2E">
+          <p>§13 3. <b>Noldorin</b>.  All the speeches or dialects of the <i>Noldor</i> have this name, from the most ancient records in <i>Túna</i>, until now when the much changed language of the Exiles survives still among those who have returned at last to <i>Tol Eressea</i>.</p>
+        </P>
+      </Row>
+      <Row n="23.2" m="2">
+        <P m="1E">
+          <p><b>Yára-noldorin</b>, or <i>Kornoldorin</i> is the ancient form that it had before the Exile: this is <i>Old Noldorin</i>.</p>
+        </P>
+        <P m="2E">
+          <p><i>Ancient Noldorin</i> (<b>Yáranoldorin</b>) and <b>Túnanoldorin</b> are the names given to the forms of this speech as it was before the Exile.</p>
+        </P>
+      </Row>
+      <Row n="23.3" m="2">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="2E">
+          <p>It is better to reserve <i>Ancient Noldorin</i> for the earliest period, contemporary with <i>Ancient Quenya</i>, when the tongues of the Vanyar and Noldor had yet only begun to diverge. On the other hand <i>Túnanoldorin</i> or <i>Túnarin</i>* is contemporary with <i>Parmaquesta</i>, and shows from the first much divergence from <i>Quenya</i> (and <i>Telerin</i>), becoming already before the Exile a wholly distinct speech, in which many of the great changes that took place during the Exile are foreshadowed.</p>
+        </P>
+      </Row>
+      <Row n="23.4" m="2">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="2E">
+          <p>* for after a while the <i>Lindar</i> forsook <i>Túna</i>, and there only the <i>Noldor</i> dwelt.</p>
+        </P>
+      </Row>
+      <Row n="23.5" m="2">
+        <P m="1E">
+          <p>The periods of <b>Etya-noldorin</b> or ‘Exiled Noldorin’ are divided into various parts, as is later described.</p>
+        </P>
+        <P m="2E">
+          <p>After the Exile that remnant of the Noldor that did not depart became merged with the Vanyar at least in speech, and Noldorin perished in Valinor. The speech of the Exiles is called <b>Etyarin</b> or <b>Etya-noldorin</b>, that is “Exilic or Exile-Noldorin”. The loremasters have divided its later history into various periods and dialects, as is later described.</p>
+        </P>
+      </Row>
+      <Row n="23.6" m="2">
+        <P m="1E">
+          <p>The dialect of <i>Gondolin</i> is best known and earliest recorded: its oldest records are named ‘early Exilic’.</p>
+        </P>
+        <P m="2E">
+          <p>Of these the dialect of <i>Gondolin</i> is best known, and earliest recorded: its earliest surviving records are called “early Etyarin”.</p>
+        </P>
+      </Row>
+      <Row n="23.7" m="2">
+        <P m="1E">
+          <p>Other dialects, differing only in slight points, were those of <i>Hithlum</i>, the <i>Falas</i>, <i>Nargothrond</i>, and the <i>Fëanorian</i> or dialect of <i>East-Beleriand</i> and of the folk of the sons of <i>Fëanor</i>.</p>
+        </P>
+        <P m="2E">
+          <p>Other dialects were those of Hithlum, the Falas, Nargothrond, and of East Beleriand (the speech of the sons of Feanor and their people). These dialects did not differ greatly one from another.</p>
+        </P>
+      </Row>
+      <Row n="23.8" m="2">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="2E">
+          <p>The language of the returned Exiles in Eressëa is derived in the main from the speech of Gondolin. So also was the Elvish speech adopted by the <i>Atani</i>, the Fathers of Men, and spoken by the high men of <i>Númenor</i> in that isle, and after during the Third Age upon the western shores of Middle-earth.</p>
+        </P>
+      </Row>
+      <Row n="24.1" m="3">
+        <P m="1E">
+          <p>5. <b>Lemberin</b>: also called <RepD><i>Ilkorin</i></RepD>* was the tongue of the Teleri that remained in Beleriand.</p>
+        </P>
+        <P m="1B">
+          <p>5. <Mis><b>Lemberin</b></Mis>: also called <Rep><i>Alkorin</i></Rep>* was the tongue of the Teleri that remained in Beleriand.</p>
+        </P>
+        <P m="2E">
+          <p>§15 5. <b>Sindarin</b>. This is the name of those Elves of Telerian race that remained in Beleriand.</p>
+        </P>
+      </Row>
+      <Row n="24.2" m="2">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="2E">
+          <p>Abiding as they did in the twilight of Middle-earth, far-sundered from their kin, their language changed more quickly than the tongues of Valinor, and went its own way, becoming soon wholly unlike them, and showing, save to the eyes of loremasters, little kinship with the Telerian speech of Elvenhome in the West. These folk the <i>Noldor</i> named also <i>Alamanyar</i>,<sup>¶</sup> meaning those who never crossed the sea or beheld the Blessed Land of <i>Aman</i>; but themselves they called the <i>Eglath</i> ‘the Forsaken’.</p>
+        </P>
+      </Row>
+      <Row n="24.3" m="2">
+        <P m="1E">
+          <p>Before the coming of the <i>Noldor</i> it was spoken far and wide in <i>Beleriand</i> (save in <i>Ossiriand</i>) and all the names of places, of rivers, woods, fields, plains, hills and mountains were given in this tongue. Many of these remained and were used by the <i>Noldor</i>; others remained beside new Noldorin names.</p>
+        </P>
+        <P m="2E">
+          <p>§16 Before the coming of the Exiled Noldor, the <i>Sindarin</i> (or <i>Eglathrin</i>) was spoken far and wide in Beleriand, save only in <i>Ossiriand</i>. All the names of places: of rivers, woods, plains, mountains and hills: in that land were at first given in that tongue. Many of these remained, and were used by the Noldor with little or no change.</p>
+        </P>
+      </Row>
+      <Row n="24.4" m="2">
+        <P m="1E">
+          <p>* But this name is not rightly a linguistic name, and includes also the <Mis><i>Pereldar</i></Mis>, and all who began the march, but did not come to <i>Kór</i>.</p>
+        </P>
+        <P m="2E">
+          <p class="border-2 border-amber-500 rounded-md p-1">¶ But this name was not used with reference to languages; for it applied also to the <i>Nandor</i>.</p>
+        </P>
+      </Row>
+      <Row n="24.5" m="2">
+        <P m="1E">
+          <p>After the coming of the <i>Noldor</i> the <Mis><i>Lemberin</i></Mis> tongues remained in use, save among scattered companies, mainly on the West Coast in the havens of the <i>Falas</i>, and in the strong realm of Thingol, <i>Doriath</i> in the midst of <i>Beleriand</i>.</p>
+        </P>
+        <P m="2E">
+          <p>After the coming of the Noldor the Sindarin tongues remained in use, among wandering companies in the woods and hills. But on the west coast of Beleriand in the Havens of the Falas, and the strong realm of Thingol in the land of Doriath, it was the language of many folk and was there maintained until the ruin of Beleriand.</p>
+        </P>
+      </Row>
+      <Row n="24.6" m="4">
+        <P m="1E">
+          <p><b>Doriathren</b> is the language of which most record and memory is still preserved.</p>
+        </P>
+        <P m="1B">
+          <p><b>Doriathren</b> is the <Add>Lemberin</Add> language of which most record and memory is still preserved.</p>
+        </P>
+        <P m="1B+">
+          <p><b>Doriathren</b> is the <Rep>Lembarin</Rep> language of which most record and memory is still preserved.</p>
+        </P>
+        <P m="2E">
+          <p><b>Doriathrin</b> is the Sindarin language of which most record and memory is still preserved; and it is spoken still by the last remnant of Doriath that dwell in the east of the Isle of Eressëa.</p>
+        </P>
+      </Row>
+      <Row n="25.1" m="2">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="2E">
+          <p>§17 In its development in Middle-earth <i>Noldorin</i> grew more and more to resemble <i>Sindarin</i>, and though when more closely observed these tongues can readily be seen to be far-sundered, yet in sound and style and idiom they are much alike. This the loremasters ascribe in the first place to the influence of the land itself, that Beleriand which is now lost in which both tongues dwelt and changed. But the influence of the peoples, one upon the other, and of their tongues was not without effect. In spite of estrangements and enmities in those unhappy days of war and exile, when the lies and webs of Morgoth were woven, the <i>Sindar</i> and <i>Noldor</i> had much intercourse, and indeed were often mingled, so that each took words from the other.</p>
+        </P>
+      </Row>
+      <Row n="25.2" m="2">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="2E">
+          <p>For many of the <i>Alamanyar</i> joined the hosts of the Noldo-chieftains; and in the days of defeat many of the Noldor took refuge with Thingol in Doriath.</p>
+        </P>
+      </Row>
+      <Row n="25.3" m="2">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="2E">
+          <p>There were Alamanyar of Doriath in the remnant that gathered under Ëarendil at the Mouths of Sirion; and Ëarendil drew his blood not only from Men, but also from both Noldor and <i>Alamanyar</i>.</p>
+        </P>
+      </Row>
+      <Row n="26.1" m="3">
+        <P m="1E">
+          <p>6. Of the tongue of the Danian Elves, or <RepD><b>Pereldarin</b></RepD>, record is still preserved of the language of <i>Ossiriand</i> in the days before the ruin of <i>Beleriand</i>.</p>
+        </P>
+        <P m="1B">
+          <p>6. Of the tongue of the Danian Elves, or <Rep><b>Naneldarin</b></Rep>, record is still preserved of the language of <i>Ossiriand</i> in the days before the ruin of <i>Beleriand</i>.</p>
+        </P>
+        <P m="2E">
+          <p>§18 6. <b>Nandorin</b>, or Danian. This people were originally part of the Teleri, and of the host of Olwe, and though their later speech was a speech apart it showed still that it was of the Eldarin kin. A branch of the Danian Elves, turning at last westward again, crossed the mountains and came down into eastern Beleriand. There they dwelt long in Ossiriand, the Land of Seven Rivers, but were secret and had little converse with the Sindar or with the Noldor. They were called the “Green Elves” (<i>Laiquendi</i> in Quenya) by the other folk of Beleriand. After the ruin of their realm many took refuge with Thingol in Doriath, and thus record was there preserved of their ancient tongue, and is kept still, though incomplete, in Eressea.</p>
+        </P>
+      </Row>
+      <Row n="26.2" m="2">
+        <P m="1E">
+          <p>This is called <b>Ossiriandren</b> or Ossiriandish.</p>
+        </P>
+        <P m="2E">
+          <p>This West-Danian tongue is usually named <b>Ossiriandrin</b>, or <i>Ossiriandish</i>, though by some it is called <i>Laiquenderin</i>.</p>
+        </P>
+      </Row>
+      <Row n="26.3" m="2">
+        <P m="1E"><p class="text-slate-500">[none]</p></P>
+        <P m="2E">
+          <p>Of the East-Danian beyond the mountains, from which it is said that the <i>Atani</i>, the Fathers of Men, learned much of their first speech, nothing is now known in Eressëa.</p>
+        </P>
+      </Row>
+      <Row n="27" m="4">
+        <P m="1E">
+          <p>§11 Letters used in naming forms derived from the <i>Qenderin</i> languages: <RepD><b>CQ</b></RepD> is primitive, or original common, <i>Quendian</i> (Qenderin).</p>
+        </P>
+        <P m="1B">
+          <p>§11 Letters used in naming forms derived from the <i>Qenderin</i> languages: <Rep><b>Prim</b></Rep> is primitive, or original common, <i>Quendian</i> (Qenderin) <Add>or Elvish</Add>.</p>
+        </P>
+        <P m="1P">
+          <p>§11 Letters used in naming forms derived from the <i>Qenderin</i> languages: <Rep><b>PE</b></Rep> is primitive, or original common, <i>Quendian</i> (Qenderin).</p>
+        </P>
+        <P m="2E">
+          <p>§19 These letters and abbreviations are used in the following histories and grammars for the names of those Quendian tongues that are cited or mentioned.</p>
+        </P>
+      </Row>
+      <Row n="28.1" m="3">
+        <P m="1E">
+          <ul>
+            <li><b>Av.</b> <i>Avarin</i>.</li>
+            <li><b>Dor.</b> <i>Doriath</i>-dialect of <i>Lemberin</i>.</li>
+            <li><b>Dan.</b> <i>Danian</i>.</li>
+            <li><b>E.</b> <i>Eldarin</i>.</li>
+            <li><b>Fal.</b> <i>Falas</i>-dialect of <RepD><i>Lemberin</i></RepD> and of <i>Noldorin</i>.</li>
+            <li><b>Fean.</b> <i>Fëanorian</i> or <i>Eastern</i> dialect of <i>Exilic Noldorin</i>.</li>
+            <li><b>Gon.</b> <i>Gondolin</i>-dialect of <i>Noldorin</i>.</li>
+            <li><RepD><b>I</b> or <b>Ilk.</b> <i>Ilkorin</i></RepD> that is <RepD><i>Lemberin</i></RepD>.</li>
+          </ul>
+        </P>
+        <P m="1B">
+          <ul>
+            <li><b>Av.</b> <i>Avarin</i>.</li>
+            <li><b>Dor.</b> <i>Doriath</i>-dialect of <Mis><i>Lemberin</i></Mis>.</li>
+            <li><b>Dan.</b> <i>Danian</i>.</li>
+            <li><b>E.</b> <i>Eldarin</i>.</li>
+            <li><b>Fal.</b> <i>Falas</i>-dialect of <Rep><i>Lembarin</i></Rep> and of <i>Noldorin</i>.</li>
+            <li><b>Fean.</b> <i>Fëanorian</i> or <i>Eastern</i> dialect of <i>Exilic Noldorin</i>.</li>
+            <li><b>Gon.</b> <i>Gondolin</i>-dialect of <i>Noldorin</i>.</li>
+            <li><Rep><b>Alk.</b></Rep> <Rep><i>Alkorin</i></Rep> that is <Rep><i>Lembarin</i></Rep>.</li>
+          </ul>
+        </P>
+        <P m="2E">
+          <ul>
+            <li><b>AQ.</b> see Q., N.</li>
+            <li><b>Av.</b> <i>Avarin</i>.</li>
+            <li><b>Bel.</b> <i>Beleriandic</i>. This is used as a name for all the languages of the <i>Sindar</i> or Grey Elves (more properly called <i>Sindarin</i>). It does not include Danian, since <i>Ossiriand</i> though in fact part of Beleriand was regarded as a separate country.</li>
+            <li><b>C.</b> Common: as in CE, CQ.</li>
+            <li><b>Dan.</b> <i>Danian</i>, or <i>Nandorin</i>. Unless noted the language of Ossiriand is intended. <b>WDan</b>. for <i>West-Danian</i>, and <b>EDan</b>. for <i>East-Danian</i> are also used.</li>
+            <li><b>Dor.</b> <i>Doriathrin</i>. The chief Sindarin dialect; that of Doriath, the realm of King Thingol.</li>
+            <li><b>E.</b> <i>Eldarin</i>. This includes <i>Vanyarin</i>, <i>Noldorin</i> and <i>Telerin</i> (and its branches <i>Sindarin</i> and <i>Nandorin</i>). <b>CE</b> ‘Common Eldarin’ is the language of the Eldar before their divisions.</li>
+            <li><b>Ex.N.</b> <i>Exilic</i> or <i>Etya-noldorin</i>, the language of the Exiled Noldor in Beleriand.</li>
+            <li><b>Fal.</b> The dialect of the <i>Falas</i>, either of <i>Noldorin</i> (<b>Fal.N.</b>), or of <i>Sindarin</i> (<b>Fal.S.</b>), as the case may be.</li>
+            <li><b>Fe.</b>, or <b>Fean.</b> Feanorian: the eastern dialect of Noldorin in Exile.</li>
+            <li><b>Gon.</b> <i>Gondolinian</i> dialect of <i>Noldorin</i>.</li>
+            <li><b>Hith.</b> N. dialect of <i>Hithlum</i>.</li>
+          </ul>
+        </P>
+      </Row>
+      <Row n="28.2" m="3">
+        <P m="1E">
+          <ul>
+            <li><b>KE.</b> <i>Koreldarin</i>.</li>
+            <li><b>KN.</b> <i>Kornoldorin</i>.</li>
+            <li><b>L.</b> <i>Lindarin</i>.</li>
+            <li><b>N.</b> <i>Noldorin</i>: <b>EN</b> is <i>Etya-noldorin</i> or <i>Exilic</i>. <b>ON</b> is <i>Yáranoldorin</i> or <i>Old Noldorin</i>. <b>EEN</b> is the earliest form of <i>Exilic</i> in <i>Gondolin</i>.</li>
+            <li><b>Os.</b> is <i>Ossiriandish</i>.</li>
+            <li><b>Q.</b> is <i>Qenya</i>. <b>PQ</b> is <i>Parmaqesta</i>. <b>TQ</b> is <i>Tarqesta</i>.</li>
+            <li><b>T.</b> is <i>Telerin</i>. <b>OT</b> is <i>Old Telerin</i>.</li>
+          </ul>
+        </P>
+        <P m="1P">
+          <ul>
+            <li><b>KE.</b> <i>Koreldarin</i>.</li>
+            <li><b>KN.</b> <i>Kornoldorin</i>.</li>
+            <li><b>L.</b> <i>Lindarin</i>. <Add><b>OL</b> is Old Lindarin before development of classical PQ.</Add></li>
+            <li><b>N.</b> <i>Noldorin</i>: <b>EN</b> is <i>Etya-noldorin</i> or <i>Exilic</i>. <b>ON</b> is <i>Yáranoldorin</i> or <i>Old Noldorin</i>. <b>EEN</b> is the earliest form of <i>Exilic</i> in <i>Gondolin</i>.</li>
+            <li><b>Os.</b> is <i>Ossiriandish</i>.</li>
+            <li><b>Q.</b> is <i>Qenya</i>. <b>PQ</b> is <i>Parmaqesta</i>. <b>TQ</b> is <i>Tarqesta</i>. <Del><b>AQ</b> is archaic Quenya before the classical period.</Del></li>
+            <li><b>T.</b> is <i>Telerin</i>. <b>OT</b> is <i>Old Telerin</i>.</li>
+          </ul>
+        </P>
+        <P m="2E">
+          <ul>
+            <li><b>K.</b> or <b>KQ.</b> <i>Kalaquendian</i>: the language of the Elves of Valinor (insofar as it showed common features distinct from the <i>Alamanya Eldar</i>). For this <b>Val</b>. or <b>V</b>. is often used as in <b>VTel</b>.</li>
+            <li><b>N.</b> <i>Noldorin</i>. Where unspecified this usually refers to Exilic or <b>Ex.N.</b>, Exilic Noldorin. <b>AN.</b> Ancient Noldorin.</li>
+            <li><b>Os.</b> <i>Ossiriandrin</i>.</li>
+            <li><b>Q.</b> <i>Qenya</i>. Where it is necessary to distinguish: <b>PQ</b> denotes the <i>Parmaquesta</i> (or more archaic book-language), and <b>TQ</b> the <i>Tarquesta</i>. <b>AQ</b> refers to the Ancient Quenya (or earliest recorded form of Vanyarin). But in CQ <b>Q</b> stands for <i>Quenderin</i> and <b>CQ</b> refers to the primitive language of all the Elves or Quendi before their separation.</li>
+            <li><b>S.</b> <i>Sindarin</i>.</li>
+            <li><b>T.</b> <i>Telerin</i>. <b>AT</b>. <i>Ancient Telerin</i>.</li>
+          </ul>
+        </P>
+      </Row>      
+    </div>
+  </main>
 </Layout>
