@@ -31,10 +31,36 @@
 	src:  url('/tq-collation/fonts/ValkyrieACapsRegular.woff2') format('woff2');
 }
 
+/* Garamond */
+
+@font-face {
+	font-family: "garamond";
+	src:  url('/tq-collation/fonts/GaramondNo8-Reg.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "garamond";
+	src:  url('/tq-collation/fonts/GaramondNo8-Ita.ttf') format('truetype');
+    font-style: italic;
+}
+
+@font-face {
+	font-family: "garamond";
+	src:  url('/tq-collation/fonts/GaramondNo8-Med.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+	font-family: "garamond";
+	src:  url('/tq-collation/fonts/GaramondNo8-MedIta.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
 /* Declaration */
 
 body {
-    font-family: "valkyrie";
+    font-family: "valkyrie", "garamond";
 }
 
 del {
